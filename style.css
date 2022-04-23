@@ -1,0 +1,46 @@
+body{
+background: linear-gradient(183.46deg, #2D496A 34.96%, #04070A 96.88%, #000000 96.89%);
+background-repeat: no-repeat;
+margin: 0px;
+background-color: #000000;
+}
+
+footer{
+    background-color: black;
+}
+
+.header{
+    margin: 0px;
+    display: inline-flex;
+    flex-direction: row;
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.child1{
+    flex-grow: 2;
+}
+
+#title_button{
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+
+.header_buttons{
+    color: white;
+    padding: 2em;
+    margin-right: 0em;
+    border: 1px solid #2d496a;
+}
+
+.header_buttons:hover{
+    background-color: #2D496A;
+}
+
+#index{
+    color: white;
+}
