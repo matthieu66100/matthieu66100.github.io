@@ -1,12 +1,39 @@
 body{
-background: linear-gradient(183.46deg, #2D496A 34.96%, #04070A 96.88%, #000000 96.89%);
-background-repeat: no-repeat;
 margin: 0px;
+background: linear-gradient(190deg, #2D496A 34.96%, #04070A 96.88%, #000000 96.89%);
+background-repeat: no-repeat;
 background-color: #000000;
 }
 
-footer{
-    background-color: black;
+.body_orga{
+    margin: 0em;
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid white;
+}
+
+.body_components{
+    margin: 0em;
+    border-radius: 2em;
+    width: 100%;
+}
+
+.body_avatar{
+    margin: 0em;
+    border-radius: 2em;
+}
+
+.body_list_items{
+    margin: 2em;
+    float: right;
+}
+
+.body_icons{
+    margin: 0px;
+    width: 10em;
+    height: 10em;
+    filter: invert()  ;
 }
 
 .header{
@@ -15,32 +42,55 @@ footer{
     flex-direction: row;
     background-color: black;
     width: 100%;
-    height: fit-content;
+    height: 5em;
     justify-content: space-between;
     align-items: center;
 }
 
 .child1{
-    flex-grow: 2;
-}
-
-#title_button{
-    font-size: 2em;
-    font-weight: bold;
-    color: white;
+    flex-grow: 3;
 }
 
 .header_buttons{
+    margin: 0em;
     color: white;
     padding: 2em;
-    margin-right: 0em;
-    border: 1px solid #2d496a;
+    /*border: 1px solid #2d496a;*/
+}
+
+.home_button{
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
 }
 
 .header_buttons:hover{
     background-color: #2D496A;
 }
 
+.footer{
+    margin: 0px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+}
+
+.footer_buttons{
+    color: white;
+    padding: 1em;
+    margin: 0em;
+
+    border: 1px solid white;
+}
+
 #index{
     color: white;
+}
+
+.border_left{
+    border: 1px solid white
 }
