@@ -1,12 +1,12 @@
 body{
-margin: 0px;
-background: linear-gradient(190deg, #2D496A 34.96%, #04070A 96.88%, #000000 96.89%);
-background-repeat: no-repeat;
-background-color: #000000;
+    background-color: #000000;
 }
-
+html{
+    width: 100%;
+}
 .body_orga{
-    margin: 0em;
+    background: linear-gradient(190deg, #2D496A 34.96%, #04070A 96.88%, #000000 96.89%) no-repeat;
+    margin: 1em 1em 1em 0;
     display: inline-flex;
     flex-direction: row;
     width: 100%;
@@ -14,13 +14,13 @@ background-color: #000000;
 }
 
 .body_components{
-    margin: 0em;
+    margin: 0;
     border-radius: 2em;
     width: 100%;
 }
 
 .body_avatar{
-    margin: 0em;
+    margin: 0;
     border-radius: 2em;
 }
 
@@ -30,14 +30,14 @@ background-color: #000000;
 }
 
 .body_icons{
-    margin: 0px;
+    margin: 0;
     width: 10em;
     height: 10em;
     filter: invert()  ;
 }
 
 .header{
-    margin: 0px;
+    margin: 0;
     display: inline-flex;
     flex-direction: row;
     background-color: black;
@@ -52,7 +52,7 @@ background-color: #000000;
 }
 
 .header_buttons{
-    margin: 0em;
+    margin: 0;
     color: white;
     padding: 2em;
     /*border: 1px solid #2d496a;*/
@@ -69,7 +69,7 @@ background-color: #000000;
 }
 
 .footer{
-    margin: 0px;
+    margin: 0;
     display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
@@ -82,7 +82,7 @@ background-color: #000000;
 .footer_buttons{
     color: white;
     padding: 1em;
-    margin: 0em;
+    margin: 0;
 
     border: 1px solid white;
 }
