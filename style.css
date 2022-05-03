@@ -11,19 +11,25 @@ html{
     display: inline-flex;
     flex-direction: row;
     width: 100%;
-    border: 1px solid white;
 }
 
-.body_components{
+.inventaire{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.body_components_left{
+    margin: 1em;
+    border-radius: 2em;
+    width: 40%;
+}
+
+.body_components_right{
     margin: 1em;
     border-radius: 2em;
     width: 100%;
 }
 
-.body_avatar{
-    margin: 0;
-    border-radius: 2em;
-}
 .body_list_items{
     display: inline-flex;
     flex-direction: column;
@@ -31,7 +37,6 @@ html{
     align-items: center;
     margin: 2em;
     float: right;
-
 }
 
 
@@ -40,6 +45,10 @@ html{
     width: 10em;
     height: 10em;
     filter: invert()  ;
+}
+
+.border_left{
+    border: 1px solid white
 }
 
 .header{
@@ -61,7 +70,6 @@ html{
     margin: 0;
     color: white;
     padding: 2em;
-    /*border: 1px solid #2d496a;*/
 }
 
 .home_button{
@@ -90,9 +98,4 @@ html{
     padding: 1em;
     margin: 0;
 
-    border: 1px solid white;
-}
-
-.border_left{
-    border: 1px solid white
 }
