@@ -69,16 +69,23 @@ html{
 .header_buttons{
     margin: 0;
     color: white;
-    padding: 2em;
-}
-
-.home_button{
-    font-size: 2em;
-    font-weight: bold;
-    color: white;
+    padding: 3em;
 }
 
 .header_buttons:hover{
+    background-color: #2D496A;
+}
+
+.home_button{
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding: 1em ;
+    display: inline-flex;
+
+}
+.home_button:hover{
     background-color: #2D496A;
 }
 
