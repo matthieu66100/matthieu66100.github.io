@@ -1,18 +1,11 @@
+.border_left {
+    border: 1px solid white
+}
+
 /*
 HEADER
 */
 
-body {
-    background-color: #000000;
-}
-
-.body_orga {
-    background: linear-gradient(190deg, #2D496A 34.96%, #04070A 96.88%, #000000 96.89%) no-repeat;
-    margin: 1em 1em 1em 0;
-    display: inline-flex;
-    flex-direction: row;
-    width: 100%;
-}
 
 .header {
     margin: 0;
@@ -40,7 +33,7 @@ body {
     margin: 0;
     color: white;
     padding: 3em;
-
+    
     
 }
 
@@ -64,6 +57,19 @@ body {
 /*
 BODY
 */
+body {
+    background-color: #000000;
+}
+
+.body_color{
+    background: linear-gradient(190deg, #2D496A 34.96%, #04070A 96.88%, #000000 96.89%) no-repeat;
+}
+
+.body_orga {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+}
 
 html {
     width: 100%;
@@ -108,9 +114,6 @@ html {
 FOOTER
 */
 
-.border_left {
-    border: 1px solid white
-}
 
 .footer {
     margin: 0;
@@ -127,5 +130,5 @@ FOOTER
     color: white;
     padding: 1em;
     margin: 0;
-
+    
 }
