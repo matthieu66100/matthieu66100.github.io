@@ -59,6 +59,11 @@ body {
     background-color: #000000;
 }
 
+html {
+    width: 100%;
+    color: white;
+}
+
 .body_color{
     background: linear-gradient(190deg, #2D496A 34.96%, #04070A 96.88%, #000000 96.89%) no-repeat;
 }
@@ -69,23 +74,18 @@ body {
     width: 100%;
 }
 
-html {
-    width: 100%;
-    color: white;
-}
-
 .inventaire {
     display: inline-flex;
     flex-direction: row;
 }
 
-.body_components_left {
+.div_character {
     margin: 1em;
     border-radius: 2em;
-    width: 40%;
+    width: 30%;
 }
 
-.body_components_right {
+.div_competences {
     margin: 1em;
     border-radius: 2em;
     width: 100%;
@@ -111,7 +111,6 @@ html {
 /*
 FOOTER
 */
-
 
 .footer {
     margin: 0;
