@@ -33,8 +33,6 @@ HEADER
     margin: 0;
     color: white;
     padding: 3em;
-    
-    
 }
 
 .header_buttons:hover {
@@ -130,5 +128,4 @@ FOOTER
     color: white;
     padding: 1em;
     margin: 0;
-    
 }
