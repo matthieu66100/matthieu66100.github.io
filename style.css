@@ -1,11 +1,12 @@
-body{
+/*
+HEADER
+*/
+
+body {
     background-color: #000000;
 }
-html{
-    width: 100%;
-    color: white;
-}
-.body_orga{
+
+.body_orga {
     background: linear-gradient(190deg, #2D496A 34.96%, #04070A 96.88%, #000000 96.89%) no-repeat;
     margin: 1em 1em 1em 0;
     display: inline-flex;
@@ -13,45 +14,7 @@ html{
     width: 100%;
 }
 
-.inventaire{
-    display: inline-flex;
-    flex-direction: row;
-}
-
-.body_components_left{
-    margin: 1em;
-    border-radius: 2em;
-    width: 40%;
-}
-
-.body_components_right{
-    margin: 1em;
-    border-radius: 2em;
-    width: 100%;
-}
-
-.body_list_items{
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin: 2em;
-    float: right;
-}
-
-
-.body_icons{
-    margin: 0;
-    width: 10em;
-    height: 10em;
-    filter: invert()  ;
-}
-
-.border_left{
-    border: 1px solid white
-}
-
-.header{
+.header {
     margin: 0;
     display: inline-flex;
     flex-direction: row;
@@ -62,34 +25,94 @@ html{
     align-items: center;
 }
 
-.child1{
+.child1 {
     flex-grow: 3;
 }
 
-.header_buttons{
+.header_buttons {
     margin: 0;
     color: white;
     padding: 3em;
 }
 
-.header_buttons:hover{
+.header_button_page_selected{
+    background-color: #2D496A;
+    margin: 0;
+    color: white;
+    padding: 3em;
+
+    
+}
+
+.header_buttons:hover {
     background-color: #2D496A;
 }
 
-.home_button{
+.home_button {
     font-size: 3em;
     font-weight: bold;
     color: white;
     background-color: black;
-    padding: 1em ;
+    padding: 1em;
     display: inline-flex;
-
 }
-.home_button:hover{
+
+.home_button:hover {
     background-color: #2D496A;
 }
 
-.footer{
+/*
+BODY
+*/
+
+html {
+    width: 100%;
+    color: white;
+}
+
+.inventaire {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.body_components_left {
+    margin: 1em;
+    border-radius: 2em;
+    width: 40%;
+}
+
+.body_components_right {
+    margin: 1em;
+    border-radius: 2em;
+    width: 100%;
+}
+
+.body_list_items {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em;
+    float: right;
+}
+
+
+.body_icons {
+    margin: 0;
+    width: 10em;
+    height: 10em;
+    filter: invert();
+}
+
+/*
+FOOTER
+*/
+
+.border_left {
+    border: 1px solid white
+}
+
+.footer {
     margin: 0;
     display: inline-flex;
     flex-direction: row;
@@ -100,7 +123,7 @@ html{
     align-items: center;
 }
 
-.footer_buttons{
+.footer_buttons {
     color: white;
     padding: 1em;
     margin: 0;
