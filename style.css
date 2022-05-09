@@ -85,7 +85,7 @@ html {
     width: 30%;
 }
 
-.div_competences {
+.div_blockinfo {
     margin: 1em;
     border-radius: 2em;
     width: 100%;
@@ -127,4 +127,36 @@ FOOTER
     color: white;
     padding: 1em;
     margin: 0;
+}
+
+/*
+SPECIAL JS
+ */
+.activeButton{
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    background-color: #2D496A;
+    padding: 1em;
+    display: inline-flex;
+}
+
+.div_blockinfo{
+    text-align: center;
+}
+
+#aProposContent{
+    display: none;
+}
+
+#experiancesContent{
+    display: none;
+}
+
+#projetsContent{
+    display: none;
+}
+
+#competancesContent{
+    display: block;
 }
