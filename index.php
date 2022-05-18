@@ -14,7 +14,7 @@
 <header>
     <div class="header">
         <p class="child1">
-            <a href="index.html" class="home_button"> Portfolio </a> 
+            <a href="index.php" class="home_button"> Portfolio </a>
         </p>
 
         <button onclick="aProposInfo()" class="home_button header_buttons" id="aPropos">A propos</button> <!--au click sur le bouton, je lance la fonction aProposInfo()-->
