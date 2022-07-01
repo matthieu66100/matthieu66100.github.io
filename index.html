@@ -1,84 +1,157 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
     <meta charset='utf-8'>
-
-    <title>Portfolio</title>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Basto Matthieu</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <script src='dist/js/bootstrap.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
 </head>
 
-
-<header>
-    <div class="header">
-
-        <!--
-        <p class="child1 home_button"> Portfolio </p>
-        -->
-        <p class="child1"> 
-            <a href="index.html" class="home_button"> Portfolio </a> 
-        </p>
-        
-        <p class=""> 
-            <a href="a_propos.html" class="header_buttons"> A propos </a>
-        </p>
-        <p class=""> 
-            <a href="experiences.html" class="header_buttons">Experiences</a>  
-
-        </p>
-        <p class=""> 
-            <a href="projets.html" class="header_buttons">Projets</a>  
-
-        </p>
-     </div>
-</header>
-
-
 <body>
-    <div class="body_orga body_color border_left">
-      
-        <!-- block Personnage -->
-        <div class="div_character inventaire border_left">
-            
-            <div class="body_list_items border_left" style="width:30% ;">
-                <h2>Equipement</h2>
-                <img class="body_icons" src="ressources/images/icons/.svg" alt="">
-                <img class="body_icons" src="ressources/images/icons/.svg" alt="">
-                <img class="body_icons" src="ressources/images/icons/.svg" alt="">
-                <img class="body_icons" src="ressources/images/icons/.svg" alt="">
-            </div>
-            
-            <div class = "border_left" style="width:30% ;">
-                <img src="ressources/plein_face.png" >
-            </div>
 
-            <div class="body_list_items border_left" style="width:30% ;">
-                <h2>Equipement</h2>
-                <img class="body_icons" src="ressources/images/icons/.svg" alt="">
-                <img class="body_icons" src="ressources/images/icons/.svg" alt="">
-                <img class="body_icons" src="ressources/images/icons/.svg" alt="">
-                <img class="body_icons" src="ressources/images/icons/.svg" alt="">
-            </div>      
-        
-        </div>
+    <header class="header_nav">
+           <div style="display: flex; ">
+               <div>
+                   <a href="index.html"> 
+                        <h1>Basto Matthieu </h1>
+                    </a>     
+                </div>
+                
+                <div style="flex-grow: 1 ;"></div> <!-- Separateur pour garder le titre a gauche-->
 
-        <!-- BlockCompetences -->
-        <div class="div_competences border_left">
-            <img src="" alt="">
+                <div style=" flex-direction: row-reverse ;">
+                    <a class="btn_header" href="aPropos.html"> <h3> A propos     </a>
+                    <a class="btn_header" href="experiences.html">  Experiences  </a>
+                    <a class="btn_header" href="projets.html">      Projets      </a>
+                </div>
+            </div> 
+
+    </header>
+    
+
+    <main class=" body_color" style="min-height: 50vw;">
+        <div class="main_box">
+            
+            <aside class="bloc1 inventory_box">
+                
+                <div class="bloc2">
+                    <div class="bloc3" > <img src="img/images/icons/brain-solid.svg" alt="" class="img_color"> </div>
+                    <div class="bloc4"> 
+                        <h1>Créatif</h1>
+                        J'ai quand même réalisé cette page voyons!
+                        Plus sérieusement, des idées fusent dans ma tête constamment et parfois j'en attrape une et la réalise si je le peux.
+                    </div>
+                </div> 
+
+                <div class="bloc2">
+                    <div class="bloc3"> <img src="img/images/icons/glasses-solid.svg" alt="" class="img_color"> </div>
+                    <div class="bloc4"> 
+                        <h1>Curieux </h1>
+                        Les nouvelles technologies m'attirent et encore plus quand ces dernières me font toucher du doigt des rêves futuristes!
+                        (Je m'impatiente un peu trop à l'idée de conduire une voiture volante).
+                    </div>
+                </div>  
+
+                <div class="bloc2">
+                    <div class="bloc3"> <img src="img/images/icons/dice-d20-solid.svg" alt="" class="img_color"> </div>
+                    <div class="bloc4"> 
+                        <h1>Rôliste </h1> 
+                    </div>
+                </div>  
+
+                <div class="bloc2">
+                    <div class="bloc3"> <img src="img/images/icons/laptop-solid.svg" alt="" class="img_color"> </div>
+                    <div class="bloc4"> 
+                        <h1>Equipé </h1> 
+                        <p> - Cartes Electroniques.
+                        <p> - Tournevis (pas sonique...) et outils en tout genre.
+                        <p> - Imprimantes 3D.
+                    </div>
+                </div>                 
+            </aside>
+            
+            <img src="img/plein_face.png" alt="" style="min-height: 50vw;"> <!-- Image centrale-->
+            
+            <aside class="bloc1 inventory_box">
+                <div class="bloc2">
+                    <div class="bloc4"> 
+                        <h1>Diplomé (plomé!..) </h1> 
+                        Un début d'études dans l'électronique avec mon BTS et une suite logique dans la robotique et les systèmes embarqués grâce à un Master dans l'école IMERIR.
+                    </div>
+                    <div class="bloc3"> <img src="img/images/icons/graduation-cap-solid.svg" alt="" class="img_color"> </div>
+                </div>
+
+                <div class="bloc2">
+                    <div class="bloc4"> 
+                        <h1>Chasseur de bugs </h1>
+                        Capacité à créer des bugs en quelques secondes...
+                        mais au moins capable de les régler!
+                    </div>
+                    <div class="bloc3"> <img src="img/images/icons/bug-slash-solid.svg" alt="" class="img_color"> </div>
+                </div>
+
+                <div class="bloc2">
+                    <div class="bloc4"> 
+                        <h1>Bidouilleur </h1> 
+                        Quand quelque chose m'intrigue... je le démonte!
+                        Mais grâce à ce "TOC", j'ai compris comment les choses fonctionnent et 
+                        suis capable de réparer ou de m'en inspirer pour mes besoins personnels
+                    </div>
+                    <div class="bloc3"> <img src="img/images/icons/keyboard-solid.svg" alt="" class="img_color"> </div>
+                </div>
+
+                <div class="bloc2">
+                    <div class="bloc4"> 
+                        <h1>Sportif </h1> 
+                        J'apprécie les sports de combats et aime suer en allant au Dojo.
+                        <p>(je suis informaticien... que vais-je devenir si je ne me dépense pas?!)</p>
+                         
+                    </div>
+                    <div class="bloc3"> <img src="img/images/icons/" alt="" class="img_color"> </div>
+                </div>
+
+            </aside>
+
         </div>
-    </div>
+    </main>
+    
+    
+    <footer class="footer_nav">
+        <nav style="color: white;">
+            
+            <!--
+                www.linkedin.com/in/matthieu-basto-111a85159
+                mailto:matthieu.basto@gmail.com
+                https://github.com/matthieu66100
+            -->
+
+            <a href="" class="btn_footer">Linkedin</a>
+            <a href="" class="btn_footer">gmail</a>
+            <a href="" class="btn_footer">Github</a>
+            
+        </nav>
+    </footer>
+    
 </body>
-
-
-<footer>
-    <div class="footer">
-        <p class="footer_buttons border_left"><a href="www.linkedin.com/in/matthieu-basto-111a85159"> Linkedin</a></p>
-        <p class="footer_buttons border_left"><a href="mailto:matthieu.basto@gmail.com"> gmail</a></p>
-        <p class="footer_buttons border_left"><a href="https://github.com/matthieu66100"> GitHub</a></p>
-    </div>
-</footer>
-
 </html>
-<!-- -->
+
+
+
+
+<!-- 
+- Continuer le visuel des boutons de liens Footer
+- Retirer les encadrés pour le index.body
+- Ajouter le Nom et Prenom au dessus de l'avatar
+- Changer la police
+
+- Ajouter les pages secondaires 
+-- A propos : decrire le parcours et les raisons de celui-ci
+-- Experiences: presenter les entreprises et les projets en surface
+-- Projets : presenter les projets en detail et ajouter des photos/liens Videos
+
+- Faire corriger les fautes par Marine 
+
+- Verifier que tout les liens sont fonctionnels 
+-->

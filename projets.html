@@ -1,68 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
     <meta charset='utf-8'>
-
-    <title>Portfolio</title>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Basto Matthieu</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <script src='dist/js/bootstrap.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
 </head>
 
-
-<header>
-    <div class="header">
-
-        <!--
-            <p class="child1 home_button"> Portfolio </p>
-            -->
-        <p class="child1">
-            <a href="index.html" class="home_button"> Portfolio </a>
-        </p>
-
-        <p class="">
-            <a href="a_propos.html" class="header_buttons"> A propos </a>
-        </p>
-        <p class="">
-            <a href="experiences.html" class="header_buttons">Experiences</a>
-
-        </p>
-        <p class="">
-            <a href="projets.html" class="header_buttons header_button_page_selected">Projets</a>
-
-        </p>
-    </div>
-</header>
-
 <body>
-<div class="body_color">
 
-    <div class="border_left" style="margin: 1em;">
-        <h1>Projets personnels</h1>
-        <h2>Projet 1</h2>
-        <h2>Projet 2</h2>
-        <h2>Projet 3</h2>
-        <h2>Projet 4</h2>
-    </div>
+    <header class="header_nav">
+           <div style="display: flex;">
+               <div>
+                   <a href="index.html"> 
+                        <h1>Basto Matthieu </h1>
+                    </a>     
+                </div>
+                
+                <div style="flex-grow: 1 ;"></div> <!-- Separateur pour garder le titre a gauche-->
+
+                <div style=" flex-direction: row-reverse ;">
+                    <a class="btn_header" href="aPropos.html"> <h3> A propos     </a>
+                    <a class="btn_header" href="experiences.html">  Experiences  </a>
+                    <a class="btn_header btn_header_selected" href="projets.html">      Projets      </a>
+                </div>
+            </div> 
+
+    </header>
     
-    <div class="border_left" style="margin: 1em;">
-        <h1>Projets Proffessionels</h1>
-        <h2>Projet 1</h2>
-        <h2>Projet 2</h2>
-        <h2>Projet 3</h2>
-        <h2>Projet 4</h2>
-    </div>
+
+    <main class=" body_color" style="min-height: 50vw;">
+
+    </main>
     
-    <div class="border_left" style="margin: 1em;">
-        <h1>Projets Scolaires</h1>
-        <h2>Projet 1</h2>
-        <h2>Projet 2</h2>
-        <h2>Projet 3</h2>
-        <h2>Projet 4</h2>
-    </div>
-</div>
+    
+    <footer class="footer_nav">
+        <nav style="color: white;">
+            
+            <!--
+                www.linkedin.com/in/matthieu-basto-111a85159
+                mailto:matthieu.basto@gmail.com
+                https://github.com/matthieu66100
+            -->
+
+            <a href="" class="btn_footer">Linkedin</a>
+            <a href="" class="btn_footer">gmail</a>
+            <a href="" class="btn_footer">Github</a>
+            
+        </nav>
+    </footer>
     
 </body>
-
 </html>
+
+
+
+
+<!-- 
+- Continuer le visuel des boutons de liens Footer
+- Retirer les encadrés pour le index.body
+- Ajouter le Nom et Prenom au dessus de l'avatar
+- Changer la police
+
+- Ajouter les pages secondaires 
+-- A propos : decrire le parcours et les raisons de celui-ci
+-- Experiences: presenter les entreprises et les projets en surface
+-- Projets : presenter les projets en detail et ajouter des photos/liens Videos
+
+- Faire corriger les fautes par Marine 
+
+- Verifier que tout les liens sont fonctionnels 
+-->
