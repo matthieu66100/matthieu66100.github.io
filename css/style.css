@@ -1,0 +1,22 @@
+html, body{
+    font-size: ;
+    color: #dfdfdf;
+    background-color: #063647;
+    
+}
+
+.nav-menu{
+
+    /* display: inline-flex; */
+}
+s
+.nav-left{
+display: flex;
+justify-content: flex-start
+
+
+}
+.nav-right{
+display: flex;
+justify-content: flex-end;
+}
