@@ -11,6 +11,7 @@ html, body{
 /* NAV BAR */
 .nav-menu{
     display: flex;
+
 }
 
 .nav-left{
@@ -33,6 +34,10 @@ html, body{
 /* AVATAR AND TEXT */
 
 .section-1{
+}
+
+.about-text{
+    margin-inline: 10em;
 }
 
 .avatar{
