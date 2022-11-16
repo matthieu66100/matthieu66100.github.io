@@ -4,19 +4,47 @@ html, body{
     background-color: #063647;
     
 }
-
+/* NAV BAR */
 .nav-menu{
-
-    /* display: inline-flex; */
+display: flex;
 }
-s
+
 .nav-left{
-display: flex;
 justify-content: flex-start
+}
 
+.nav-right{
+justify-content: flex-end;
+}
+
+/* AVATAR AND TEXT */
+
+.section-1{
+    display: flex;
+    justify-content: center;
+}
+
+.avatar{
+    height: 200px;
+    border-radius: 50%;
+}
+.text{
 
 }
-.nav-right{
-display: flex;
-justify-content: flex-end;
+
+
+
+
+/* PROJECTS */
+.section-2{
+    display: flex;
+    justify-content: center;
+    background-color: #052D3D;
+}
+
+/* SOCIAL */
+.section-3{
+    display: flex;
+    justify-content: center;
+    background-color: #0E282E;
 }
