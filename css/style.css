@@ -23,7 +23,6 @@ section {
 a{
     text-decoration: none;
     color: #dfdfdf;
-
 }
 
 
@@ -39,56 +38,53 @@ a{
 
 
 /* NAV BAR */
-.nav{
+.nav {
     min-height: 3.5rem;
     position: relative;
     text-align: center;
     z-index: 2;
 }
+
 .nav-menu {
     display: flex;
+    flex-wrap: wrap; /* Ajout d'une enveloppe de flexibilité pour les smartphones */
+    justify-content: space-between; /* Espacement égal des éléments sur tous les écrans */
 }
 
-.nav-left {
+.nav-left,
+.nav-right {
+    flex: 1; /* Ajustement de la flexibilité pour les smartphones */
     display: flex;
-    justify-content: flex-start;
-    flex-basis: 0;
-    flex-grow: 1;
-    flex-shrink: 0;
+    justify-content: flex-start; /* Alignement à gauche pour les smartphones */
 }
 
 .nav-right {
-    display: flex;
-    justify-content: flex-end;
-    flex-basis: 0;
-    flex-grow: 1;
-    flex-shrink: 0;
+    justify-content: flex-end; /* Alignement à droite pour les smartphones */
 }
 
 .nav-logo {
     height: 2em;
     margin: 1em;
+    max-width: 100%; /* Empêche les logos de déborder sur les petits écrans */
 }
 
 .nav-links {
     align-items: center;
     display: flex;
-    flex-grow: 0;
-    flex-shrink: 0;
     font-size: 1rem;
-    justify-content: center;
     padding: 0.5rem 0.75rem;
 }
 
 /* AVATAR AND TEXT */
-
 .about-text {
     margin-inline: 15em;
+    max-width: 100%; /* Permet au texte de s'ajuster aux petits écrans */
 }
 
 .avatar {
-    height: 400px;
-    border-radius: 100%;
+    height: auto; /* Permet à l'avatar de s'ajuster aux petits écrans */
+    max-width: 100%; /* Permet à l'avatar de s'ajuster aux petits écrans */
+    border-radius: 50%; /* Assure la forme ronde de l'avatar */
 }
 
 
@@ -98,23 +94,24 @@ a{
 }
 
 .project-grid {
-    display: block;
-    padding: 0.75rem;
+    display: flex;
+    flex-wrap: wrap; /* Ajout d'une enveloppe de flexibilité pour les smartphones */
+    justify-content: center; /* Centre les projets sur tous les écrans */
 }
 
 .project-box {
     background-color: transparent;
     border: 2px solid rgba(7, 59, 79, 0.5);
-
     border-radius: 5px;
     box-shadow: 0 2px 3px rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 10%);
-    display: block;
+    margin: 0.75rem; /* Espacement entre les boîtes de projet */
+    flex: 0 0 45%; /* Ajuste la largeur des boîtes de projet pour les smartphones */
+    max-width: 100%; /* Permet aux boîtes de projet de s'ajuster aux petits écrans */
 }
 
-
-
 .project-img {
-    height: 200px;
+    height: auto; /* Permet aux images de projet de s'ajuster aux petits écrans */
+    max-width: 100%; /* Permet aux images de projet de s'ajuster aux petits écrans */
 }
 
 .project-text {
@@ -126,8 +123,6 @@ a{
     margin-inline: 2em;
 }
 
-
-
 /* SOCIAL */
 .section-3 {
     background-color: #0E282E;
@@ -136,4 +131,27 @@ a{
 .foot-logo {
     height: 4em;
     padding-inline: 1em;
+    max-width: 100%; /* Permet aux logos de s'ajuster aux petits écrans */
+}
+
+/* Media Queries */
+
+/* Smartphones */
+@media only screen and (max-width: 480px) {
+    .about-text {
+        margin-inline: 1em; /* Ajustez la marge du texte "About" pour les smartphones */
+    }
+
+    .project-box {
+        flex: 0 0 95%; /* Ajustez la largeur des boîtes de projet pour les smartphones */
+    }
+
+    .container {
+        margin-inline: 0.5em; /* Ajustez les marges des conteneurs de projet pour les smartphones */
+    }
+}
+
+/* Tablettes */
+@media only screen and (max-width: 768px) {
+    /* Ajoutez ici des ajustements spécifiques aux tablettes si nécessaire */
 }
