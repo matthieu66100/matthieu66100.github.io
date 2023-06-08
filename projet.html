@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -38,91 +38,82 @@
 
 <!-- Projects presentation -->
 
-    <div class="project-grid" style="text-align:center; display: flexbox;">
+<div class="project-grid" style="text-align:center; display: flexbox;">
 
         <div class="project-box" style="background-color: darkslategrey">
-            <h1> Commandes Composants </h1>
-            <h3>Thales - 2021</h3>
-            <p> <u>Projet Proffesionel</u>, Commande Composants est un outil développé en C++/CLI, composé d'une partie Front ,d'une partie Back et d'une BDD sous MySQL </p>
-            <p> L'outil à pour but de renseigner le stock interne de l'entreprise en composants electroniques, d'affecter des priorités sur certains composants et de remonter une alerte mailaux gestionaires en charges de passer commande.</p>
-            <p>
-                L'outil comporte 3 profils d'utilisation:
-                <li> <b> Gestionaire</b> : Permet l'extraction des données de TOUT le site, de parametrer des alertes personnelles, et de generer templates de mails pour commander chez les fournisseurs en liens avec le composant </li>
-                <li> <b> Technicien</b> : Permet l'ajout ou la suppression des composants dans la Base de Stock ainsi que l'ajout d'une étiquette "urgent" sur certains</li>
-                <li> <b> Admin</b> : Comporte les droits des daux autres utilisateurs, ainsi que la possibilité d'ajouter/effacer des fournisseurs, et la possibilité de reorganiser l'interface des deux autres profils </li>
-            </p>
-            <p><u>TECHNO:</u></p>
-            <p><b> C++/CLI - BDD - MySQL </b></p>
-        </div>
-
-        <div class="project-box" style="background-color: darkslategrey">
-            <h1> TerraHexapode </h1>
-            <h3> IMERIR - 2020 / 2022 </h3>
-            <p><u> Projet Perconnel</u> ayant pour but la conception et la realisation d'un robot hexapode, transportant une plante sur son dos et se deplaçant de façon autonome dans une piece à la recherche de sources lumineuse solaires pour alimenter la plante sur son dos</p>
-            <p> Le robot, doté de 6 pattes, 3 articulations/pattes, divers capteurs (lidar, hygrometrique et photovoltaique, camera) et d'une Raspberry-pi 4, se voit doté d'un ROS Noetic embarqué, lui permetant de gerer les deplacement et les decisions algorythmiques </p>
-            <p> durant son développement, plusieurs ajouts et correctifs lui on été apportés, tel que l'ajout de reconnaissance d'huimain à l'aide de la camera, la detection de l'hygrometrie du pot de plante grâce au capteur hygro, de l'enregistrement de son environement grâce au scanner 3D de la piece, et des données necessaires de la plante grâce à une BDD interne alimentée grâce à Wikipedia </p>
-            <p> Ainsi il est capable de fournir les informations de la plante sur son dos, de choisir le meilleur ensoleillement de la piece pour elle et de chercher des etres humains quand un besoin d'arrosage se fait sentir par le capteur hygro</p>
-            <p><u>TECHNO:</u></p>
-            <p><b>C++ - Python3 - ROS - ROS2 - MySQL</b></p>
-        </div>
-
-        <div class="project-box" style="background-color: darkslategrey">
-            <h1> AR Racing Game </h1>
-            <h3> IMERIR - 2021 </h3>
-            <p> <u>Projet Scolaire</u> de fin d'année consistant à développer un jeux vidéo en realité augmentée. Le projet etait libre de méthode et de technologies, ayant pour seule contrainte un budget de 50€, une equipe de 5 personnes maximum et 3 semaines</p>
-            <p> Notre equipe composée de roboticiens, de développeurs en IA et en systèmes embarqués, a choisis de concevoir un jeux de courses de voiture, semblables a Micro-Machines(NES). Le parcour de course est encré dans l'espace grâce à des jetons graves de QRCodes et détectés grâce à des webcams.</p>
-            <p> Pour nous differencier de nos concurents, nous avons décidé d'intégrer un Bras Robotique de chez UR Robotics, nous permetant alors, grâce à un ventouse Pneumatique de déplacer le jetons QR sur le terrain de jeux pendant la course. Changeant alors la cartographie du cicuit pendant que les joueurs concourent dessus</p>
-            <p> Pour finir, nous avons ajouté des PNJ (Personnages Non Joueurs) contre qui concourir, gradués de 4 niveaux de difficultée </p>
-            <p><u>TECHNO:</u></p>
-            <p><b> C - C++ - QT5 - Python3 - QR tech </b></p>
-        </div>
-
-        <div class="project-box" style="background-color: darkslategrey">
-            <h1> Turtle Bot </h1>
-            <h3> IMERIR - 2020 </h3>
-            <p> <u> Projet Scolaire</u> du confinement, l'objectif est de permetre aux agences immobilieres de fournir des visites 3D des biens locatifs, sans se retrouver à plusieurs dans une piece pour visiter </p>
-            <p> il a fallut monter un turtlebot3(burger) et ajouté une une WebCam supplementaire sur l'etage sous le lidar. L'objectif etait de laisser le robot se déplacer de façon autonome dans le bien immobilier, de scanner les pieces grâce au lidar, de photographier l'environement et de tout retransmettre sur ordinateur </p>
-            <p> Le Scan 3D du bien et les photos sont alors associés grâce à un programme C++ ecrit en amont et permet de fournir un fichier intégrable sur une page web pour permettre de visiter le bien à distance </p>
-            <p><u>TECHNO:</u></p>
-            <p><b> ROS - C++ </b></p>
-        </div>
-
-        <div class="project-box" style="background-color: darkslategrey">  
-            <h1> Médic@ </h1>
-            <h3> Altran - 2022 </h3>
-            <p><u> Projet Proffesionel</u> visant à extraire des données pour alimenter une BDD et entrainer une IA dessus</p>
-            <p> L'IA, développée par une equipe française doit, grace aux corpus medicaux dont elle dispose, etablir un diagnostic medical, expliquer les traitement appropriés à partir de la description de symptomes pathologiques</p>
-            <p> Pour entrainer cette IA il a fallu générer des scripts python, permetant de checher sur internet differents fichiers de corpus medicaux, de fournir le résumé du corpus sur la BDD, les mots clés demandés, ainsi que le document en entier</p>
-            <p><u>TECHNO:</u></p>
-            <p><b> Python3 - Google Search API </b></p>
-        </div>
-
-        <div class="project-box" style="background-color: darkslategrey">
-            <h1> Passerelle de communication </h1>
-            <h3> Socomec - 2022 </h3>
-            <p><u> Projet proffesionnel</u> ayant pour objectif d'ameliorer et faire evoluer une passerelle de communication entre les differents appareils de mesure electroniques de la marque Socomec</p>
-            <p> Cette passerelle permet la comminucation avec tout les modules de la même marque, elle priorise les echanges d'informations et remonte les données sur differents applications proposée par l'entreprise (web ou logicielle)</p>
-            <p><u>TECHNO:</u></p>
-            <p><b>C - C++</b></p>
-        </div>                
-        
-        <div class="project-box" style="background-color: darkslategrey">
-            <h1> Portfolio </h1>
-            <p> Comme <u>Projet Personel</u>, ce portfolio etait une façon d'en apprendre un peu sur une technologie que je connaissait assez mal, et une façon de pouvoir présenter les mes projets</p>
-            <p><u>TECHNO:</u></p>
-            <p><b> HTML - CSS</b></p>
-        </div>
-
-        <div class="project-box" style="background-color: darkslategrey">
-            <h1> Projet Robotique Interne </h1>
-            <h3> APSIDE - 2023 </h3>
-            <p><u> Projet Proffesionel</u></p>
-            <p> [en cours]</p>
-            <p><u>TECHNO:</u></p>
-            <p><b></b></p>
-        </div>
-
-    </div>
+    <h1>Commandes Composants</h1>
+    <h3>Thales - 2021</h3>
+    <p><u>Professional Project</u>, Commande Composants is a tool developed in C++/CLI, consisting of a Front-end, a Back-end, and a MySQL database.</p>
+    <p>The tool aims to update the company's internal stock of electronic components, assign priorities to certain components, and send email alerts to the managers in charge of placing orders.</p>
+    <p>
+        The tool has 3 user profiles:
+        <li><b>Manager</b>: Allows extraction of data from the ENTIRE site, personalizing alerts, and generating email templates for ordering from suppliers associated with the component.</li>
+        <li><b>Technician</b>: Allows adding or removing components from the Stock Database and adding an "urgent" label to certain components.</li>
+        <li><b>Admin</b>: Includes the rights of the other users, as well as the ability to add/delete suppliers and reorganize the interface of the other two profiles.</li>
+    </p>
+    <p><u>TECHNO:</u></p>
+    <p><b>C++/CLI - Database - MySQL</b></p>
+</div>
+<div class="project-box" style="background-color: darkslategrey">
+    <h1>TerraHexapode</h1>
+    <h3>IMERIR - 2020 / 2022</h3>
+    <p><u>Personal Project</u> aiming at designing and building a hexapod robot that carries a plant on its back and autonomously moves in a room to search for solar light sources to power the plant on its back.</p>
+    <p>The robot, equipped with 6 legs, 3 leg joints, various sensors (lidar, hygrometric, and photovoltaic sensors, camera), and a Raspberry Pi 4, is equipped with embedded ROS Noetic to manage its movements and algorithmic decisions.</p>
+    <p>During its development, several additions and fixes have been made, such as adding human recognition using the camera, detecting the moisture of the plant pot using the hygrometer sensor, recording its environment using the 3D scanner of the room, and obtaining necessary plant data from an internal database fed by Wikipedia.</p>
+    <p>Thus, it is capable of providing information about the plant on its back, choosing the best sunlight exposure in the room for it, and searching for human beings when watering is needed based on the hygrometer sensor.</p>
+    <p><u>TECHNO:</u></p>
+    <p><b>C++ - Python3 - ROS - ROS2 - MySQL</b></p>
+</div>
+<div class="project-box" style="background-color: darkslategrey">
+    <h1>AR Racing Game</h1>
+    <h3>IMERIR - 2021</h3>
+    <p><u>School Project</u> at the end of the year, consisting of developing an augmented reality video game. The project had no specific method or technology requirements, with only a budget of €50, a maximum team size of 5 people, and a duration of 3 weeks.</p>
+    <p>Our team, composed of roboticists, AI developers, and embedded systems developers, chose to create a racing game similar to Micro-Machines (NES). The race track is anchored in space using grave QR code tokens detected by webcams.</p>
+    <p>To differentiate ourselves from our competitors, we decided to integrate a UR Robotics robotic arm, which allows us to move the QR tokens on the game field during the race using a pneumatic suction cup. This changes the circuit mapping while players compete on it.</p>
+    <p>Finally, we added non-player characters (NPCs) to compete against, graded in 4 levels of difficulty.</p>
+    <p><u>TECHNO:</u></p>
+    <p><b>C - C++ - QT5 - Python3 - QR tech</b></p>
+</div>
+<div class="project-box" style="background-color: darkslategrey">
+    <h1>Turtle Bot</h1>
+    <h3>IMERIR - 2020</h3>
+    <p><u>School Project</u> during the lockdown, aiming to allow real estate agencies to provide 3D tours of rental properties without multiple people being present in a room for a visit.</p>
+    <p>We had to assemble a Turtlebot3 (Burger) and add an additional webcam on the floor below the lidar. The objective was to let the robot autonomously move inside the property, scan the rooms using the lidar, take photographs of the environment, and transmit everything to a computer.</p>
+    <p>The 3D scan of the property and the photos are then associated using a pre-written C++ program, which provides an integrable file on a web page to allow remote property visits.</p>
+    <p><u>TECHNO:</u></p>
+    <p><b>ROS - C++</b></p>
+</div>
+<div class="project-box" style="background-color: darkslategrey">
+    <h1>Médic@</h1>
+    <h3>Altran - 2022</h3>
+    <p><u>Professional Project</u> aiming to extract data to populate a database and train an AI on it.</p>
+    <p>The AI, developed by a French team, is intended to establish a medical diagnosis and provide explanations of appropriate treatments based on the description of pathological symptoms using the medical corpora it has.</p>
+    <p>To train this AI, it was necessary to generate Python scripts to search various medical corpus files on the internet, provide the summary of the corpus to the database, the requested keywords, as well as the entire document.</p>
+    <p><u>TECHNO:</u></p>
+    <p><b>Python3 - Google Search API</b></p>
+</div>
+<div class="project-box" style="background-color: darkslategrey">
+    <h1>Passerelle de communication</h1>
+    <h3>Socomec - 2022</h3>
+    <p><u>Professional Project</u> aiming to improve and evolve a communication gateway between different electronic measuring devices of the Socomec brand.</p>
+    <p>This gateway enables communication with all modules of the same brand, prioritizes information exchange, and sends data to different applications offered by the company (web or software).</p>
+    <p><u>TECHNO:</u></p>
+    <p><b>C - C++</b></p>
+</div>
+<div class="project-box" style="background-color: darkslategrey">
+    <h1>Portfolio</h1>
+    <p>As a <u>Personal Project</u>, this portfolio was a way for me to learn more about a technology I was not very familiar with and a way to showcase my projects.</p>
+    <p><u>TECHNO:</u></p>
+    <p><b>HTML - CSS</b></p>
+</div>
+<div class="project-box" style="background-color: darkslategrey">
+    <h1>Projet Robotique Interne</h1>
+    <h3>APSIDE - 2023</h3>
+    <p><u>Professional Project</u></p>
+    <p>[in progress]</p>
+    <p><u>TECHNO:</u></p>
+    <p><b></b></p>
+</div>
 
 </body>
 
