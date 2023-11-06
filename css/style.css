@@ -138,8 +138,22 @@ a{
 
 /* Media Queries */
 
+@media only screen and (max-width: 650px) {
+    .about-text {
+        margin-inline: 1em; /* Ajustez la marge du texte "About" pour les smartphones */
+    }
+}
+
 /* Smartphones */
 @media only screen and (max-width: 480px) {
+    .nav-left{
+        justify-content: center;
+    }
+
+    .nav-right{
+        justify-content: center;
+    }
+
     .about-text {
         margin-inline: 1em; /* Ajustez la marge du texte "About" pour les smartphones */
     }
