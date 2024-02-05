@@ -1,0 +1,61 @@
+
+/* ################## */
+.profile_up {
+    text-align: left;
+    display: flex;
+}
+
+.profile-presentation{
+    padding-left: 1em;
+    width: min-content;
+}
+
+.div-contact-img {
+    width: 7em;
+    height: 7em;
+    border-radius: 1em;
+    text-align: center;
+    background-color: var(--jet);   
+}
+
+.contact-img {
+    width: 95%;
+    height: 95%;
+    margin-top: 3px;
+}
+
+.card-description {
+    background-color: var(--jet);
+    border-radius: 0.3em;
+    text-align: center;
+    padding: 10px;
+}
+
+/* ################## */
+
+.contact-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-item {
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.icon-box{
+    background-color: var(--jet);
+    min-width: 50px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 1em;
+}
+
+.contact-icon{
+    margin-inline: 10%;
+    margin-block: 10%;
+    padding: 5px;
+}

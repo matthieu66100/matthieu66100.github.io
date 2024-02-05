@@ -1,0 +1,20 @@
+@media screen and (max-width : 800px) {
+
+    /* PROFILE CSS */
+    .section-card {
+        margin-inline: 1%;
+    }
+
+    .contact-list{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1px;
+    }
+    
+    .contact-item{
+        align-items: left;
+    }
+
+    
+
+}
