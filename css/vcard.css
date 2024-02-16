@@ -1,0 +1,81 @@
+
+.v-card {
+	width: 20em;
+	border-radius: 20px;
+	flex-direction: column;
+	justify-content: center;
+	gap: 10px;
+	display: inline-flex
+}
+
+.profile-Up {
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.profile-photo {
+	width: 82px;
+	height: 82px;
+	position: relative;
+	background: #5B6078;
+	border-radius: 20px
+}
+
+.profile-presentation {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 5px;
+}
+
+.MatthieuBasto {
+	color: white;
+	/* font-size: 20px; */
+
+}
+
+.status {
+	padding: 2px;
+	background: #5B6078;
+	border-radius: 5px;
+	justify-content: center;
+	font-size: small;
+}
+
+.profile-down {
+	height: 250px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.profile-infos-block {
+	height: 60px;
+	border-radius: 10px;
+	overflow: hidden;
+	justify-content: flex-start;
+	align-items: center;
+	display: flex;
+}
+
+.profile-info-logo {
+	width: 60px;
+	height: 60px;
+	position: relative;
+	background: #5B6078;
+	border-radius: 20px
+}
+
+.profile-infos {
+	padding: 5px;
+	align-items: center;
+	gap: 4px;
+}
+.profile-infos p{
+	color: white;
+	margin: 0%;
+}
+
+.texte {
+	color: white;
+}

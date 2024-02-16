@@ -1,0 +1,26 @@
+body {
+	padding: 5px;
+	background: #181926;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 10px;
+	display: inline-flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+section{
+	padding: 5px;
+	background: #24273A;
+	border-radius: 20px;
+	border: 1px #494D64 solid;
+	gap: 5px;
+	display: flex
+}
+
