@@ -1,0 +1,21 @@
+@media screen and (max-width: 1000px) {
+
+    body{
+        padding-inline: 20px;
+        flex-direction: column;
+        display: flex;
+    }
+    
+    .v-card{
+        min-width: 100%;
+    }
+    
+    .profile-down{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        height: auto;
+    }
+
+
+
+  }

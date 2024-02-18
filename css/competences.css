@@ -1,12 +1,13 @@
 
 .competences {
+	
 	padding-top: 10px;
 	padding-bottom: 10px;
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
 	gap: 10px;
-	display: flex
+	display: flex;
 }
 
 .competence-block {
