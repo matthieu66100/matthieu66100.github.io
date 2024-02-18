@@ -1,0 +1,27 @@
+.Portfolio {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	flex-direction: column;
+	gap: 10px;
+	display: flex;
+	width: 100%;
+}
+.project-container {
+	border-radius: 10px;
+	/* border: 1px #111111 solid; */
+	gap: 10px;
+	margin-inline: 10px;
+
+	display: grid;
+	grid-template-columns: 2fr 2fr 2fr ;
+
+	justify-content: space-between;
+	justify-items: center;
+
+}
+.project-frame{
+	background-color: aliceblue;
+	width: 12em;
+	height: 10em;
+	border: solid #111111 1px;
+}
