@@ -25,13 +25,19 @@
 }
 
 .domaine-logo {
+	border: #FFFFFF solid 1px;
 	width: 100px;
 	height: 100px;
 	position: relative;
 	background: #5B6078;
 	border-radius: 20px;
-}
 
+	display: flex;
+	justify-content: center;
+}
+.domaine-logo svg{
+	width: 3em;
+}
 .domaine-texte {
 	width: 80%;
 	margin: 1em;

@@ -65,6 +65,12 @@
 	position: relative;
 	background: #5B6078;
 	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.profile-info-logo svg{
+	width: 2em;
 }
 
 .profile-infos {
@@ -73,10 +79,5 @@
 	gap: 4px;
 }
 .profile-infos p{
-	color: white;
 	margin: 0%;
-}
-
-.texte {
-	color: white;
 }

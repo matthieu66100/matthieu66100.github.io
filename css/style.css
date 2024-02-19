@@ -7,10 +7,12 @@ body {
 	display: inline-flex;
 	transition: all 0.5s ease; 
 	font-family: 'Poppins', sans-serif;
+	color: white;
 }
 
 a{
     text-decoration: none;
+	color: white;
 }
 
 li{
@@ -29,4 +31,5 @@ section{
 
 svg{
 	fill: white;
+	margin: 0px;
 }
