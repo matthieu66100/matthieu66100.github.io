@@ -5,6 +5,8 @@ body {
 	align-items: flex-start;
 	gap: 10px;
 	display: inline-flex;
+	transition: all 0.5s ease; 
+	font-family: 'Poppins', sans-serif;
 }
 
 a{
@@ -24,3 +26,7 @@ section{
 	display: flex
 }
 
+
+svg{
+	fill: white;
+}

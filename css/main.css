@@ -48,20 +48,37 @@
 
 
 
-.ListClient {
-	padding-left: 86px;
-	padding-right: 86px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background: #363A4F;
-	justify-content: center;
-	align-items: center;
-	gap: 164px;
-	display: inline-flex;
+.competences-container{
+	width: 100%;
 }
 
-.ListClient li{
-	width: 200px;
-	height: 200px;
-	background: white;
+.list-competences{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: space-between;
+	padding: 10px;
+	gap: 10px ;
+}
+
+.list-competences li {
+	display: flex;
+	background-color: #363A4F;
+	border-radius: 10px;
+	align-items: center;
+	gap: 5px;
+}
+
+
+
+.logo{
+	width: 50px;
+	height: 50px;
+	background-color: #5B6078;
+	
+	border-radius: 10px;
+	margin: 5px;
+}
+
+.competence-descr{
+	color: white;
 }

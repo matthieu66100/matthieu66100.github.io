@@ -1,4 +1,6 @@
-.Portfolio {
+
+
+.portfolio-container {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	flex-direction: column;
@@ -8,12 +10,12 @@
 }
 .project-container {
 	border-radius: 10px;
-	/* border: 1px #111111 solid; */
 	gap: 10px;
 	margin-inline: 10px;
 
 	display: grid;
-	grid-template-columns: 2fr 2fr 2fr ;
+	grid-template-columns: 2fr 2fr ;
+	/* grid-template-columns: 2fr 2fr 2fr ; */
 
 	justify-content: space-between;
 	justify-items: center;
