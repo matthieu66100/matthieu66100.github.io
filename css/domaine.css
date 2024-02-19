@@ -1,6 +1,5 @@
 
-.competences {
-	
+.domaine-container {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	flex-direction: column;
@@ -10,13 +9,13 @@
 	display: flex;
 }
 
-.competence-block {
+.domaine-block {
 	display: grid;
 	grid-template-columns: 2fr 2fr;
 	gap: 10px;
 }
 
-.competences-frame {
+.domaine-frame {
 	padding: 10px;
 	background: #363A4F;
 	border-radius: 10px;
@@ -25,7 +24,7 @@
 	display: flex;
 }
 
-.competences-logo {
+.domaine-logo {
 	width: 100px;
 	height: 100px;
 	position: relative;
@@ -33,7 +32,7 @@
 	border-radius: 20px;
 }
 
-.competence-texte {
+.domaine-texte {
 	width: 80%;
 	margin: 1em;
 	align-items: center;
