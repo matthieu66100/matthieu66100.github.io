@@ -17,12 +17,14 @@
 	border-radius: 10px;
 	align-items: center;
 	gap: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .logo-box{
-	margin-left: 10px;
 	min-width: 50px;
 	min-height: 50px;
+	margin-left: 10px;
 	background-color: #5B6078;
 	border-radius: 10px;
 
@@ -34,19 +36,38 @@
 }
 
 .competence-descr{
-	margin-left: 1em;
-	width: 60%;
-}
-
-.barre-compétences{
-	margin-top: 1em;
+    margin-top: 10px;
+	margin-inline: 10px;
 	width: 100%;
-	height: 1em;
-	border-radius: 1em;
-	background-color: #8aadf4;
-
-	display: flex;
-	justify-content: center;
-	color: black;
-	font-weight: 600;
 }
+
+.progressbar-wrapper {
+    margin-top: 5px;
+    background-color: #5B6078;
+    color: white;
+    border-radius: 15px;
+    width: 100%;
+  }
+
+.progressbar{
+    background-color: #8aadf4;
+    color: black;
+    padding-right: 5px;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+	font-weight: 600;
+
+}
+
+
+.pb10{width: 10% ;}
+.pb20{width: 20% ;}
+.pb30{width: 30% ;}
+.pb40{width: 40% ;}
+.pb50{width: 50% ;}
+.pb60{width: 60% ;}
+.pb70{width: 70% ;}
+.pb80{width: 80% ;}
+.pb90{width: 90% ;}
+.pb100{width:100% ;}
