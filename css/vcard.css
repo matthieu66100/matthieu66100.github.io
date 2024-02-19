@@ -81,3 +81,10 @@
 .profile-infos p{
 	margin: 0%;
 }
+
+
+.profile-contact-buttons{
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+}

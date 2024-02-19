@@ -15,6 +15,10 @@
         grid-template-columns: 2fr 2fr;
         height: auto;
     }
+    profile-contact-buttons{
+        width: 100%;
+        justify-self: end;
+    }
 
     .list-competences{
         grid-template-columns: 1fr 1fr;
