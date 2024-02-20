@@ -17,9 +17,16 @@
 .profile-photo {
 	width: 82px;
 	height: 82px;
-	position: relative;
+	/* position: relative; */
 	background: #5B6078;
-	border-radius: 20px
+	border-radius: 20px;
+
+	display: flex;
+	justify-content: center;
+}
+.profile-photo img{
+
+	
 }
 
 .profile-presentation {
