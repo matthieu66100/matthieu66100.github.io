@@ -68,7 +68,7 @@
 }
 
 .profile-info-logo {
-	width: 60px;
+	min-width:  60px;
 	height: 60px;
 	position: relative;
 	background: #5B6078;
