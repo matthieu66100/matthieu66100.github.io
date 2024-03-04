@@ -17,7 +17,6 @@
 .profile-photo {
 	width: 82px;
 	height: 82px;
-	/* position: relative; */
 	background: #5B6078;
 	border-radius: 20px;
 
@@ -26,7 +25,6 @@
 }
 .profile-photo img{
 
-	
 }
 
 .profile-presentation {
@@ -43,7 +41,9 @@
 }
 
 .status {
-	padding: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-inline: 5px; 
 	background: #5B6078;
 	border-radius: 5px;
 	justify-content: center;

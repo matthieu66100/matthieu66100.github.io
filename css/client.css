@@ -1,12 +1,11 @@
 
 
 .client-container{
+	flex-direction: column;
 	width: 100%;
 }
 
-
 .list-client{
-
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-start;
@@ -25,12 +24,11 @@
 .list-client li{
 	min-width: 50%;
 	scroll-snap-align: start;
-
 }
 
 .list-client img{
+	max-height: 5em;
 	width: 100%;
-	max-height: 20em;
 	filter: grayscale(1);
 	transition: ease 0.25s;
 	scale: calc(0.95);
@@ -39,5 +37,4 @@
 .list-client img:hover{
 	scale: calc(1);
 	filter: grayscale(0);
-
 }

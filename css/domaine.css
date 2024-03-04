@@ -1,12 +1,6 @@
 
 .domaine-container {
-	padding-top: 10px;
-	padding-bottom: 10px;
 	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
-	gap: 10px;
-	display: flex;
 	width: 100%;
 }
 
@@ -27,8 +21,8 @@
 }
 
 .domaine-logo {
-	width: 100px;
-	height: 100px;
+	min-width: 80px;
+	min-height: 80px;
 	position: relative;
 	background: #5B6078;
 	border-radius: 20px;
@@ -37,11 +31,16 @@
 	justify-content: center;
 }
 .domaine-logo svg{
-	width: 4em;
+	width: 3em;
 }
+
+.titre-domaine{
+	font-weight: bold;
+}
+
 .domaine-texte {
-	width: 80%;
-	margin: 1em;
+	max-width: 60%;
+	margin-inline: 10px;
 	align-items: center;
 	display: flex;
 }
