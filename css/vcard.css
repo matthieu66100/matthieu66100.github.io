@@ -23,6 +23,10 @@
 	display: flex;
 	justify-content: center;
 }
+.profile-photo img{
+	margin: 5%;
+	border-radius: 20px;
+}
 
 
 .profile-presentation {
