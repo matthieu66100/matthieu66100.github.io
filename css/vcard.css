@@ -23,9 +23,7 @@
 	display: flex;
 	justify-content: center;
 }
-.profile-photo img{
 
-}
 
 .profile-presentation {
 	display: flex;
@@ -35,8 +33,7 @@
 }
 
 .MatthieuBasto {
-	color: white;
-	/* font-size: 20px; */
+	/* color: white; */
 
 }
 
@@ -49,7 +46,7 @@
 	justify-content: center;
 	font-size: small;
 }
-
+	
 .profile-down {
 	height: auto;
 	flex-direction: column;
@@ -94,4 +91,19 @@
 	display: flex;
 	width: 100%;
 	justify-content: space-evenly;
+}
+
+.button-box{
+width: 100%;
+display: flex;
+justify-content: end;
+}
+.buttonCV{
+	border-radius: 10px;
+background-color: #5B6078;
+
+}
+.buttonCV svg{
+	padding: 1em;
+width: 1.5em;
 }
