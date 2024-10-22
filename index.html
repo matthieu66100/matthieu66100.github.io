@@ -39,6 +39,11 @@
                 <h1 class="display-4">Bienvenue sur mon portfolio</h1>
                 <p class="lead">Ingénieur robotique passionné par l'IT et les nouvelles technologies</p>
             </div>
+            <div class="scroll-arrow d-md-none">
+                <a href="#about" class="text-light">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
         </section>
 
         <!-- Section À propos -->
@@ -662,13 +667,36 @@
 
         seeMoreBtn.addEventListener('click', function() {
             if (hiddenProjects.classList.contains('d-none')) {
+                // Afficher les projets cachés
                 hiddenProjects.classList.remove('d-none');
+                hiddenProjects.style.maxHeight = '0px';
+                hiddenProjects.style.overflow = 'hidden';
+                
+                // Animer le déroulement des projets
+                setTimeout(() => {
+                    hiddenProjects.style.transition = 'max-height 0.5s ease-out';
+                    hiddenProjects.style.maxHeight = hiddenProjects.scrollHeight + 'px';
+                }, 10);
+
                 seeMoreBtn.textContent = 'Voir moins';
+                
                 // Déplacer le bouton à la fin de tous les projets
-                allProjects.appendChild(seeMoreBtnContainer);
+                setTimeout(() => {
+                    allProjects.appendChild(seeMoreBtnContainer);
+                }, 500);
             } else {
-                hiddenProjects.classList.add('d-none');
+                // Animer le repli des projets
+                hiddenProjects.style.maxHeight = '0px';
+                
+                setTimeout(() => {
+                    hiddenProjects.classList.add('d-none');
+                    hiddenProjects.style.maxHeight = '';
+                    hiddenProjects.style.overflow = '';
+                    hiddenProjects.style.transition = '';
+                }, 500);
+
                 seeMoreBtn.textContent = 'Voir plus de projets';
+                
                 // Remettre le bouton à sa position initiale
                 const projectsSection = document.getElementById('projects');
                 const container = projectsSection.querySelector('.container');
