@@ -1,6 +1,6 @@
 async function chargerProjets() {
   try {
-    const response = await fetch('../doc/projects.json');
+    const response = await fetch('../data/projects.json');
     const projets = await response.json();
     afficherProjets(projets);
   } catch (error) {
