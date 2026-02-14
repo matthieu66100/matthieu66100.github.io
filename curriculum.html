@@ -3,44 +3,96 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mon CV</title>
-  <!-- Bootstrap CSS -->
+  <title>Curriculum - Matthieu</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+  <style>
+    .timeline-item {
+      border-left: 3px solid #0d6efd;
+      padding-left: 20px;
+      margin-bottom: 30px;
+      position: relative;
+    }
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -8px;
+      top: 0;
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      background: #0d6efd;
+    }
+    .section-title {
+      border-bottom: 3px solid #0d6efd;
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+    }
+
+    
+  </style>
 </head>
 <body>
-<!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container">
-    <a class="navbar-brand" href="index.html">Matthieu</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="curriculum.html">Curriculum</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Matthieu</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="curriculum.html">Curriculum</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenu CV -->
+  <div class="container my-5">
+    <div class="text-center mb-5">
+      <h1>Curriculum Vitae</h1>
+      <p class="text-muted">Développeur Backend & Systèmes Embarqués</p>
+      <button class="btn btn-primary" onclick="window.print()">
+        <i class="bi bi-download"></i> Télécharger PDF
+      </button>
+    </div>
+
+    <div class="row">
+      <!-- Expériences -->
+      <div class="col-lg-6 mb-5">
+        <h2 class="section-title">
+          <i class="bi bi-briefcase-fill me-2"></i>Expériences
+        </h2>
+        <div id="experiences-container">
+          <!-- Chargement Experiences -->
+        </div>
+      </div>
+      <!-- Formation -->
+      <div class="col-lg-6 mb-5">
+        <h2 class="section-title">
+          <i class="bi bi-mortarboard-fill me-2"></i>Formation
+        </h2>
+        <div id="formation-container">
+          <!-- Chargement Formations -->
+        </div>
+      </div>
+
     </div>
   </div>
-</nav>
 
-<!-- Contenu -->
-
-
-
-
-
-  <!-- Bootstrap JS (optionnel, pour les composants interactifs) -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/cv.js"></script>
 </body>
 </html>
