@@ -9,10 +9,12 @@
         "technologies": [
             "HTML",
             "CSS",
-            "JavaScript"
+            "JavaScript",
+            "bootstrap"
         ],
         "liens": "matt66100.github.io",
-        "github": "https://github.com/matthieu66100/matthieu66100.github.io"
+        "github": "https://github.com/matthieu66100/matthieu66100.github.io",
+        "image":"assets/images/photo/MBlogo.png"
     },
     {
         "id": 2,
@@ -27,7 +29,8 @@
             "..."
         ],
         "liens": "...",
-        "github": "..."
+        "github": "...",
+        "image":"assets/images/photo/CompCom.png"
     },
     {
         "id": 3,
@@ -42,7 +45,8 @@
             "..."
         ],
         "liens": "...",
-        "github": "..."
+        "github": "...",
+        "image":"assets/images/photo/hexa.jpg"
     },
     {
         "id": 4,
@@ -57,7 +61,8 @@
             "..."
         ],
         "liens": "...",
-        "github": "..."
+        "github": "...",
+        "image":"assets/images/photo/ARRobot.png"
     },
     {
         "id": 5,
@@ -72,7 +77,8 @@
             "..."
         ],
         "liens": "...",
-        "github": "..."
+        "github": "...",
+        "image":"assets/images/photo/MBlogo.png"
     },
     {
         "id": 5,
@@ -87,7 +93,8 @@
             "..."
         ],
         "liens": "...",
-        "github": "..."
+        "github": "...",
+        "image":"assets/images/photo/MBlogo.png"
     },
     {
         "id": 6,
@@ -102,7 +109,8 @@
             "..."
         ],
         "liens": "...",
-        "github": "..."
+        "github": "...",
+        "image":"assets/images/photo/MBlogo.png"
     },
     {
         "id": 7,
@@ -117,7 +125,8 @@
             "..."
         ],
         "liens": "...",
-        "github": "..."
+        "github": "...",
+        "image":"assets/images/photo/battlebot1.jpg"
     },
     {
         "id": 8,
@@ -132,7 +141,8 @@
             "..."
         ],
         "liens": "...",
-        "github": "..."
+        "github": "...",
+        "image":"assets/images/photo/iapsibot1.jpg"
     },
     {
         "id": 9,
@@ -147,7 +157,8 @@
             "..."
         ],
         "liens": "...",
-        "github": "..."
+        "github": "...",
+        "image":"assets/images/photo/Desinfection_1.PNG"
     },
     {
         "id": 10,
@@ -162,7 +173,8 @@
             "..."
         ],
         "liens": "...",
-        "github": "..."
+        "github": "...",
+        "image":"assets/images/photo/MBlogo.png"
     },
     {
         "id": 11,
@@ -177,7 +189,8 @@
             "..."
         ],
         "liens": "...",
-        "github": "..."
+        "github": "...",
+        "image":"assets/images/photo/MBlogo.png"
     },
     {
         "id": 12,
@@ -192,7 +205,8 @@
             "..."
         ],
         "liens": "...",
-        "github": "..."
+        "github": "...",
+        "image":"assets/images/photo/Nao_2.jpg"
     },
     {
         "id": 13,
@@ -207,7 +221,8 @@
             "..."
         ],
         "liens": "...",
-        "github": "..."
+        "github": "...",
+        "image":"assets/images/photo/MBlogo.png"
     },
     {
         "id": 14,
@@ -222,7 +237,8 @@
             "..."
         ],
         "liens": "...",
-        "github": "..."
+        "github": "...",
+        "image":"assets/images/photo/vector.jpg.png"
     },
     {
         "id": 15,
@@ -237,7 +253,8 @@
             "..."
         ],
         "liens": "...",
-        "github": "..."
+        "github": "...",
+        "image":"assets/images/photo/MBlogo.png"
     },
     {
         "id": 16,
@@ -252,7 +269,8 @@
             "..."
         ],
         "liens": "...",
-        "github": "..."
+        "github": "...",
+        "image":"assets/images/photo/serverP2P.jpg"
     }
 ]
 
