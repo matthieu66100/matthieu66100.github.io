@@ -25,7 +25,7 @@ function afficherPresentation(presentation) {
     `Salut ! Je m'appelle ${presentation.nom}`;
   
   document.getElementById('hero-description').textContent = 
-    `J'ai ${presentation.age} ans et je suis un ingénieur développeur ${presentation.pays.toLowerCase()} actuellement basé à ${presentation.ville}. ${presentation.description}`;
+    `J'ai ${presentation.age} ans et je suis un ingénieur développeur en ${presentation.pays} actuellement basé à ${presentation.ville}. ${presentation.description}`;
   
   const langagesText = presentation.langagesPrincipaux
     .map(lang => `<strong>${lang}</strong>`)

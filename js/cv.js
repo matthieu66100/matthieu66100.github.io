@@ -21,7 +21,7 @@ function afficherFormation(formations) {
     
     div.innerHTML = `
       <h5 class="mb-1">${formation.Diplome}</h5>
-      <p class="text-muted mb-1">
+      <p class="text-muted fw-bold mb-1">
         <i class="bi bi-building"></i> ${formation.Etablissement}
       </p>
       <p class="text-muted mb-1">

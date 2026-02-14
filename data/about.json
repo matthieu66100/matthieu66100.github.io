@@ -1,10 +1,10 @@
 {
   "presentation": {
     "nom": "Matthieu",
-    "age": 27,
+    "age": 28,
     "ville": "Toulouse",
     "pays": "France",
-    "description": "Je suis un ingénieur développeur français actuellement basé à Toulouse. Je suis passionné par l'informatique, les nouvelles technologies, mais surtout la robotique.",
+    "description": "Je suis passionné par l'informatique, les nouvelles technologies, mais surtout la robotique.",
     "langagesPrincipaux": ["C", "C++", "Python"],
     "photo": "assets/images/photo/Photo Profil.jpg",
     "reseaux": {
@@ -14,8 +14,8 @@
     }
   },
   "competences": {
-    "langages": ["C", "C++", "Python"],
-    "technologies": ["ROS / ROS2", "OpenCV", "TensorFlow", "Git", "Docker", "QT5 / QT6"],
+    "langages": ["C", "C++", "Python3","Dart",""],
+    "technologies": ["ROS / ROS2", "OpenCV", "TensorFlow", "Git", "Docker", "QT5 / QT6", "Flutter"],
     "softSkills": ["Travail d'équipe", "Résolution de problèmes", "Communication", "Gestion de projet"],
     "langues": [
       {"langue": "Français", "niveau": "langue maternelle"},
@@ -35,9 +35,9 @@
       "icone": "cpu"
     },
     {
-      "titre": "Apprentissage",
-      "description": "Toujours à la recherche de nouvelles choses à apprendre et approfondir",
-      "icone": "lightbulb"
+      "titre": "Jeux de Role",
+      "description": "En tant que Maitre du jeu la plus part du temps",
+      "icone": "dice-6"
     }
   ]
 }
