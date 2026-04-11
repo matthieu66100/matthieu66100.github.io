@@ -1,0 +1,32 @@
+{
+  "coordonees": {
+    "email": "matthieu.basto@gmail.com",
+    "telephone": "0638546447",
+    "ville": "Toulouse",
+    "pays": "France",
+    "disponibilite": "Disponible pour des missions freelance et/ou CDI"
+  },
+  "reseau": [
+    {
+      "nom": "GitHub",
+      "url": "https://github.com/matthieu66100",
+      "icone": "github"
+    },
+    {
+      "nom": "eMail",
+      "url": "matthieu.basto@gmail.com",
+      "icone": "gmail"
+    },
+    {
+      "nom": "Linkedin",
+      "url": "https://linkedin.com/in/matthieu-basto-111a85159",
+      "icone": "linkedin"
+    }
+  ],
+  "horaires": {
+    "titre": "Disponibilites",
+    "description": "Je repond generalement souts 24-48h",
+    "jours": "Lundi - Vendredi",
+    "heures": "9h00 - 18h00"
+  }
+}
