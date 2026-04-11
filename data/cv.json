@@ -1,81 +1,122 @@
 {
-    "Formation":[
-        {
-            "Etablissement":"Sainte-Louise de Marillac ",
-            "Date":"2016-2018",
-            "Ville":"Perpignan",
-            "Diplome":"BTS Electronique et Numerique",
-            "Mention":"Bien"
-        },
-        {
-            "Etablissement":"IMERIR",
-            "Date":"2018-2021",
-            "Ville":"Perpignan",
-            "Diplome":"Master en Systemes Informatiques et Robotiques ",
-            "Mention":"Bien"
-        }
-    ],
-    "Experiences":[
-        {
-            "Entreprise":"Airbus",
-            "Poste":"Developpeur Backend R&T",
-            "Date":"Oct 2025 - Now",
-            "Technologies":["Python","Python API","C++","AFDX"],
-            "Ville":"Toulouse"
-        },
-        {
-            "Entreprise":"Berger-Levrault",
-            "Poste":"Developpeur C-C++",
-            "Date":"jan 2024 - mai 2024",
-            "Technologies":["C", "C++","Docker","Gitlab"],
-            "Ville":"Labège"
-        },
-        {
-            "Entreprise":"Ineo",
-            "Poste":"Developpeur Backend",
-            "Date":"jan 2023 - jan 2023",
-            "Technologies":["C++","Python","Podman","RedHat","Github"],
-            "Ville":"Toulouse"
-        },
-        {
-            "Entreprise":"Apside",
-            "Poste":"Ingenieur R&D Robotique",
-            "Date":"jan 2023 - mai 2024",
-            "Technologies":["C++","ROS2","Python","RaspBerry","CAO"],
-            "Ville":"Toulouse"
-        },
-        {
-            "Entreprise":"NewRest",
-            "Poste":"Integrateur Robotique",
-            "Date":"sept 2023 - jan 2024",
-            "Ville":"Toulouse"
-        },
-        {
-            "Entreprise":"Socomec",
-            "Poste":"Developpeur R&D Sys. Embarques",
-            "Date":"Juil 2022 - Dec 2022",
-            "Technologies":["C","C++","GitLab","STM32"],
-            "Ville":"Benfeld"
-        },
-        {
-            "Entreprise":"Lilly France",
-            "Poste":"Tiers Maintenance Application (TMA)",
-            "Date":"Dec 2021 - Juin 2022",
-            "Ville":"Fegersheim"
-        },
-        {
-            "Entreprise":"Thales",
-            "Poste":"Alternant Developpement Applicatif",
-            "Date":"Sept 2018 - Sept 2021",
-            "Technologies":["Python","C++","QT5","MariaDB","Docker","C++/CLI"],
-            "Ville":"Valence"
-        },
-        {
-            "Entreprise":"CHU Perpignan",
-            "Poste":"Ingenieur Robotique",
-            "Date":"Jan 2021 - Juin 2021",
-            "Technologies":["C++","ROS","Python","CAO","Electronique","C++/CLI"],
-            "Ville":"Valence"
-        }
-    ]
+  "Formation": [
+    {
+      "Etablissement": "Sainte-Louise de Marillac ",
+      "Date": "2016-2018",
+      "Ville": "Perpignan",
+      "Diplome": "BTS Electronique et Numerique",
+      "Mention": "Bien"
+    },
+    {
+      "Etablissement": "IMERIR",
+      "Date": "2018-2021",
+      "Ville": "Perpignan",
+      "Diplome": "Master en Systemes Informatiques et Robotiques ",
+      "Mention": "Bien"
+    }
+  ],
+  "Experiences": [
+    {
+      "Entreprise": "Airbus",
+      "Poste": "Developpeur Backend R&T",
+      "Date": "Oct 2025 - Now",
+      "Technologies": [
+        "Python",
+        "Python API",
+        "C++",
+        "AFDX"
+      ],
+      "Ville": "Toulouse"
+    },
+    {
+      "Entreprise": "Berger-Levrault",
+      "Poste": "Developpeur C-C++",
+      "Date": "jan 2024 - mai 2024",
+      "Technologies": [
+        "C",
+        "C++",
+        "Docker",
+        "Gitlab"
+      ],
+      "Ville": "Labège"
+    },
+    {
+      "Entreprise": "Ineo",
+      "Poste": "Developpeur Backend",
+      "Date": "jan 2023 - jan 2023",
+      "Technologies": [
+        "C++",
+        "Python",
+        "Podman",
+        "RedHat",
+        "Github"
+      ],
+      "Ville": "Toulouse"
+    },
+    {
+      "Entreprise": "Apside",
+      "Poste": "Ingenieur R&D Robotique",
+      "Date": "jan 2023 - mai 2024",
+      "Technologies": [
+        "C++",
+        "ROS2",
+        "Python",
+        "RaspBerry",
+        "CAO"
+      ],
+      "Ville": "Toulouse"
+    },
+    {
+      "Entreprise": "NewRest",
+      "Poste": "Integrateur Robotique",
+      "Date": "sept 2023 - jan 2024",
+      "Ville": "Toulouse"
+    },
+    {
+      "Entreprise": "Socomec",
+      "Poste": "Developpeur R&D Sys. Embarques",
+      "Date": "Juil 2022 - Dec 2022",
+      "Technologies": [
+        "C",
+        "C++",
+        "GitLab",
+        "STM32"
+      ],
+      "Ville": "Benfeld"
+    },
+    {
+      "Entreprise": "Lilly France",
+      "Poste": "Tiers Maintenance Application (TMA)",
+      "Date": "Dec 2021 - Juin 2022",
+      "Ville": "Fegersheim"
+    },
+    {
+      "Entreprise": "Thales",
+      "Poste": "Alternant Developpeur Applicatif",
+      "Date": "Sept 2018 - Sept 2021",
+      "Technologies": [
+        "Python",
+        "C++",
+        "QT5",
+        "MariaDB",
+        "Docker",
+        "C++/CLI"
+      ],
+      "Ville": "Valence"
+    },
+    {
+      "Entreprise": "CHU Perpignan",
+      "Poste": "Ingenieur Robotique",
+      "Date": "Jan 2021 - Juin 2021",
+      "Technologies": [
+        "C++",
+        "ROS",
+        "Python",
+        "CAO",
+        "Electronique",
+        "C++/CLI"
+      ],
+      "Ville": "Perpignan"
+    }
+  ]
 }
