@@ -1,32 +1,36 @@
+
 {
-  "coordonees": {
-    "email": "matthieu.basto@gmail.com",
-    "telephone": "0638546447",
-    "ville": "Toulouse",
-    "pays": "France",
-    "disponibilite": "Disponible pour des missions freelance et/ou CDI"
-  },
-  "reseau": [
+  "titre": "Me contacter",
+  "soustitre": "Choisissez votre plateforme préférée pour échanger",
+  "disponibilite": "Actuellement ouvert aux opportunités",
+  "liens": [
+    {
+      "nom": "LinkedIn",
+      "description": "Réseau professionnel",
+      "url": "https://linkedin.com/in/matthieu-basto-111a85159",
+      "icone": "linkedin",
+      "couleur": "#0077b5"
+    },
+    {
+      "nom": "Gmail",
+      "description": "Email professionnel",
+      "url": "mailto:matthieu.basto@gmail.com",
+      "icone": "envelope-fill",
+      "couleur": "#EA4335"
+    },
     {
       "nom": "GitHub",
+      "description": "Projets open source",
       "url": "https://github.com/matthieu66100",
-      "icone": "github"
+      "icone": "github",
+      "couleur": "#181717"
     },
     {
-      "nom": "eMail",
-      "url": "matthieu.basto@gmail.com",
-      "icone": "gmail"
-    },
-    {
-      "nom": "Linkedin",
-      "url": "https://linkedin.com/in/matthieu-basto-111a85159",
-      "icone": "linkedin"
-    }
-  ],
-  "horaires": {
-    "titre": "Disponibilites",
-    "description": "Je repond generalement souts 24-48h",
-    "jours": "Lundi - Vendredi",
-    "heures": "9h00 - 18h00"
-  }
+      "nom": "Malt",
+      "description": "Profil freelance",
+      "url": "https://www.malt.fr/profile/bastomatthieu",
+      "icone": "briefcase-fill",
+      "couleur": "#FC5656"
+    }    
+  ]
 }
