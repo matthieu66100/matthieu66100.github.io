@@ -24,9 +24,6 @@
     "github": "https://github.com/matthieu66100/matthieu66100.github.io",
     "image": "assets/images/photo/MBlogo.png",
     "images_galerie": [
-      "assets/images/photo/MBlogo.png",
-      "assets/images/photo/portfolio-screen1.png",
-      "assets/images/photo/portfolio-screen2.png"
     ]
   },
 
@@ -163,7 +160,11 @@
     ],
     "liens": "...",
     "image": "assets/images/photo/battlebot1.jpg",
-    "images_galerie": []
+    "images_galerie": [
+      "assets/images/photo/battlebot1.jpg",
+      "assets/images/photo/battlebot2.jpg",
+      "assets/images/photo/battlebot3.jpg"
+    ]
   },
 
   {
@@ -184,7 +185,10 @@
     "liens": "...",
     "github": "...",
     "image": "assets/images/photo/iapsibot1.jpg",
-    "images_galerie": []
+    "images_galerie": [
+      "assets/images/photo/iapsibot1.jpg",
+      "assets/images/photo/iapsibot2.jpg"
+    ]
   },
 
   {
@@ -204,7 +208,10 @@
     ],
     "liens": "...",
     "image": "assets/images/photo/Desinfection_1.PNG",
-    "images_galerie": []
+    "images_galerie": [
+      "assets/images/photo/Desinfection_1.PNG",
+      "assets/images/photo/Desinfection_2.PNG"
+    ]
   },
 
   {
@@ -261,7 +268,12 @@
     ],
     "liens": "...",
     "image": "assets/images/photo/Nao_2.jpg",
-    "images_galerie": []
+    "images_galerie": [
+      "assets/images/photo/Nao_1.jpg",
+      "assets/images/photo/Nao_2.jpg",
+      "assets/images/photo/Nao_3.jpg",
+      "assets/images/photo/Nao_4.jpg"
+    ]
   },
 
   {
