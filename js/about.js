@@ -108,35 +108,7 @@ function afficherCentresInteret(interets) {
 function afficherFooter(presentation) {
   // Nom dans le footer
   document.getElementById('footer-nom').textContent = presentation.nom;
-  
-  // Réseaux sociaux
-  const reseauxContainer = document.getElementById('footer-reseaux');
-  
-  if (presentation.reseaux.github) {
-    const github = document.createElement('a');
-    github.href = presentation.reseaux.github;
-    github.className = 'text-white me-3';
-    github.target = '_blank';
-    github.innerHTML = '<i class="bi bi-github fs-4"></i>';
-    reseauxContainer.appendChild(github);
-  }
-  
-  if (presentation.reseaux.linkedin) {
-    const linkedin = document.createElement('a');
-    linkedin.href = presentation.reseaux.linkedin;
-    linkedin.className = 'text-white me-3';
-    linkedin.target = '_blank';
-    linkedin.innerHTML = '<i class="bi bi-linkedin fs-4"></i>';
-    reseauxContainer.appendChild(linkedin);
-  }
-  
-  if (presentation.reseaux.email) {
-    const email = document.createElement('a');
-    email.href = `mailto:${presentation.reseaux.email}`;
-    email.className = 'text-white';
-    email.innerHTML = '<i class="bi bi-envelope fs-4"></i>';
-    reseauxContainer.appendChild(email);
-  }
+
 }
 
 // Charger les données au démarrage
