@@ -3,41 +3,61 @@
     "id": 1,
     "titre": "Mon portfolio",
     "type": "Personnel",
-    "date": "../../..",
-    "description": "Ce portfolio était un moyen pour moi d'en apprendre davantage sur une technologie que je ne connaissais pas très bien et un moyen de présenter mes projets. ",
+    "date": "2026",
+    "description": "Ce portfolio est un moyen pour moi d'en apprendre davantage sur une technologie que je ne connais pas très bien et un moyen de présenter mes projets.",
+    "details": "Portfolio responsive créé avec Bootstrap 5, permettant de présenter mes projets et compétences de manière moderne et professionnelle. Utilisation de JSON pour charger dynamiquement les données.",
+    "objectifs": [
+      "Apprendre Bootstrap et ses composants",
+      "Créer un site responsive",
+      "Mettre en pratique JavaScript moderne",
+      "Présenter mes projets de façon professionnelle"
+    ],
+
     "technologies": [
       "HTML",
       "CSS",
       "JavaScript",
-      "bootstrap"
+      "Bootstrap"
     ],
+
     "liens": "matt66100.github.io",
     "github": "https://github.com/matthieu66100/matthieu66100.github.io",
-    "image": "assets/images/photo/MBlogo.png"
+    "image": "assets/images/photo/MBlogo.png",
+    "images_galerie": [
+      "assets/images/photo/MBlogo.png",
+      "assets/images/photo/portfolio-screen1.png",
+      "assets/images/photo/portfolio-screen2.png"
+    ]
   },
+
   {
     "id": 2,
     "titre": "Commandes Composants",
     "type": "Proffessionel",
-    "date": "../../..",
+    "date": "2021",
     "entreprise": "Thales Avionics",
     "description": "Logiciel de commande de composants electroniques",
+    "details": "...",
+    "objectifs":"<liste d'objectifs definissant le projet>",
     "technologies": [
       "C++/CLI",
       "QT5",
       "MariaDB",
       "Docker"
     ],
+
     "liens": "...",
-    "github": "",
-    "image": "assets/images/photo/CompCom.png"
+    "image": "assets/images/photo/CompCom.png",
+    "images_galerie": []
   },
+
   {
     "id": 3,
     "titre": "Terra Hexapode",
     "type": "Personnel",
-    "date": "../../..",
+    "date": "2020",
     "description": "Robot de gestion agronome autonome",
+    "details": "...",
     "technologies": [
       "CAO",
       "Electronique",
@@ -45,17 +65,19 @@
       "C++",
       "Impression 3D"
     ],
-    "liens": "",
-    "github": "",
-    "image": "assets/images/photo/hexa.jpg"
+    "liens": "...",
+    "image": "assets/images/photo/hexa.jpg",
+    "images_galerie":[]
   },
+
   {
     "id": 4,
     "titre": "Jeu AR",
     "type": "Scolaire",
-    "date": "../../..",
+    "date": "2021",
     "entreprise": "IMERIR",
     "description": "Jeux de course en Realite augmente interactif",
+    "details": "...",
     "technologies": [
       "QT5",
       "C++",
@@ -63,16 +85,18 @@
       "Gestion de projet"
     ],
     "liens": "...",
-    "github": "",
-    "image": "assets/images/photo/ARRobot.png"
+    "image": "assets/images/photo/ARRobot.png",
+    "images_galerie": []
   },
+
   {
     "id": 5,
     "titre": "Immo-Scan",
     "type": "Scolaire/Proffesionel",
-    "date": "../../..",
+    "date": "2020",
     "entreprise": "IMERIR",
     "description": "Robot de scan 3d de logements",
+    "details": "...",
     "technologies": [
       "CAO",
       "Electronique",
@@ -82,32 +106,34 @@
       "QT5"
     ],
     "liens": "...",
-    "github": "",
-    "image": "assets/images/photo/MBlogo.png"
+    "image": "assets/images/photo/MBlogo.png",
+    "images_galerie": []
   },
+
   {
     "id": 5,
     "titre": "Medic@",
     "type": "Proffesionel",
-    "date": "../../..",
-    "entreprise": "Capgemini",
+    "date": "2022",
+    "entreprise": "Capgemini Engineering",
     "description": "IA d'assistance Medicale",
+    "details": "...",
     "technologies": [
-      "Python3",
-      "",
-      ""
+      "Python3"
     ],
     "liens": "...",
-    "github": "",
-    "image": "assets/images/photo/MBlogo.png"
+    "image": "assets/images/photo/MBlogo.png",
+    "images_galerie": []
   },
+
   {
     "id": 6,
     "titre": "Passerelle de communication",
     "type": "Proffesionel",
-    "date": "../../..",
+    "date": "2023",
     "entreprise": "INEO",
     "description": "Programme de deploiement automatique d'une passerelle de communication fledge-power ",
+    "details": "...",
     "technologies": [
       "Docker",
       "C++",
@@ -116,15 +142,18 @@
     ],
     "liens": "...",
     "github": "https://github.com/fledge-power",
-    "image": "assets/images/photo/MBlogo.png"
+    "image": "assets/images/photo/MBlogo.png",
+    "images_galerie": []
   },
+
   {
     "id": 7,
     "titre": "BattleBot",
     "type": "Scolaire",
-    "date": "../../..",
+    "date": "2021",
     "entreprise": "IMERIR",
     "description": "Robots de combat en arene",
+    "details": "...",
     "technologies": [
       "CAO",
       "Electronique",
@@ -133,16 +162,18 @@
       "Impression 3D"
     ],
     "liens": "...",
-    "github": "",
-    "image": "assets/images/photo/battlebot1.jpg"
+    "image": "assets/images/photo/battlebot1.jpg",
+    "images_galerie": []
   },
+
   {
     "id": 8,
     "titre": "Apsibot",
     "type": "Proffesionel",
-    "date": "../../..",
+    "date": "2024",
     "entreprise": "Apside",
     "description": "Essaim de robots d'assistance a PMR",
+    "details": "...",
     "technologies": [
       "CAO",
       "Electronique",
@@ -151,16 +182,19 @@
       "Impression 3D"
     ],
     "liens": "...",
-    "github": "",
-    "image": "assets/images/photo/iapsibot1.jpg"
+    "github": "...",
+    "image": "assets/images/photo/iapsibot1.jpg",
+    "images_galerie": []
   },
+
   {
     "id": 9,
     "titre": "Robot de Desinfection",
     "type": "Scolaire/Proffesionel",
-    "date": "../../..",
+    "date": "2020",
     "entreprise": "CHU Perpignan",
     "description": "Robot semi-autonome de desinfection pour le secteur medicale",
+    "details": "...",
     "technologies": [
       "CAO",
       "Electronique",
@@ -169,16 +203,18 @@
       "Impression 3D"
     ],
     "liens": "...",
-    "github": "",
-    "image": "assets/images/photo/Desinfection_1.PNG"
+    "image": "assets/images/photo/Desinfection_1.PNG",
+    "images_galerie": []
   },
+
   {
     "id": 10,
     "titre": "Robot Tondeuse",
     "type": "Scolaire",
-    "date": "../../..",
+    "date": "2020",
     "entreprise": "IMERIR",
     "description": "Conception et realisation d'un robot-tondeuse",
+    "details": "...",
     "technologies": [
       "CAO",
       "Electronique",
@@ -187,16 +223,18 @@
       "Impression 3D"
     ],
     "liens": "...",
-    "github": "",
-    "image": "assets/images/photo/MBlogo.png"
+    "image": "assets/images/photo/MBlogo.png",
+    "images_galerie": []
   },
+
   {
     "id": 11,
     "titre": "Analyse de Migration Applicative",
     "type": "Proffesionel",
-    "date": "../../..",
+    "date": "2025",
     "entreprise": "Berger-Levrault",
     "description": "Analyse et POC de la migration d'une application historique vers une technologie plus recente",
+    "details": "...",
     "technologies": [
       "C",
       "C++",
@@ -204,83 +242,93 @@
       "PostgreSQL"
     ],
     "liens": "...",
-    "github": "",
-    "image": "assets/images/photo/MBlogo.png"
+    "image": "assets/images/photo/MBlogo.png",
+    "images_galerie": []
   },
+
   {
     "id": 12,
     "titre": "NAO",
     "type": "Scolaire",
-    "date": "../../..",
+    "date": "2018",
     "entreprise": "IMERIR",
     "description": "Developpement d'algorythmes interactifs pour le robot NAO",
+    "details": "...",
     "technologies": [
       "C++",
       "ROS2",
       "Python3"
     ],
     "liens": "...",
-    "github": "",
-    "image": "assets/images/photo/Nao_2.jpg"
+    "image": "assets/images/photo/Nao_2.jpg",
+    "images_galerie": []
   },
+
   {
     "id": 13,
     "titre": "Corne Keyboard",
     "type": "Personnel",
-    "date": "../../..",
+    "date": "2026",
     "description": "Conception d'un clavier ergonomique personnel",
+    "details": "...",
     "technologies": [
       "C++",
       "Soudure",
       "Impression 3D"
     ],
     "liens": "...",
-    "github": "",
-    "image": "assets/images/photo/MBlogo.png"
+    "image": "assets/images/photo/MBlogo.png",
+    "images_galerie": []
   },
+
   {
     "id": 14,
     "titre": "Vector",
     "type": "Personnel",
-    "date": "../../..",
+    "date": "2025",
     "description": "Developpement d'algorythmes pour les interactions avec le robot Anki Vector",
+    "details": "...",
     "technologies": [
       "Python",
       "Docker",
       "ROS2"
     ],
     "liens": "...",
-    "github": "",
-    "image": "assets/images/photo/vector.jpg.png"
+    "image": "assets/images/photo/vector.jpg.png",
+    "images_galerie": []
   },
+
   {
     "id": 15,
     "titre": "Game Partener",
     "type": "Personnel",
-    "date": "../../..",
+    "date": "2025",
     "description": "Developpement d'une application Mobile autours des jeux de societes",
+    "details": "...",
     "technologies": [
       "Flutter",
       "PHP API",
       "MariaDB"
     ],
     "liens": "...",
-    "github": "",
-    "image": "assets/images/photo/MBlogo.png"
+    "image": "assets/images/photo/MBlogo.png",
+    "images_galerie": []
   },
+
   {
     "id": 16,
     "titre": "HomeServe",
     "type": "Personnel",
-    "date": "../../..",
+    "date": "2025",
     "description": "Mise en place d'un serveur personnel et administration de ce dernier",
+    "details": "...",
     "technologies": [
       "Docker",
       "Linux",
       "SAS"
     ],
     "liens": "...",
-    "github": "",
-    "image": "assets/images/photo/serverP2P.jpg"
+    "image": "assets/images/photo/serverP2P.jpg",
+    "images_galerie": []
   }
 ]
