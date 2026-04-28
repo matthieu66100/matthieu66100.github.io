@@ -29,15 +29,15 @@ function afficherProjets(projets) {
             ).join('')}
           </div>
           <div class="mt-auto">
-            <a href="${projet.lien}" class="btn btn-primary btn-sm me-2" target="_blank">
+            <button type="button" class="btn btn-primary btn-sm me-2" data-bs-toggle="modal" data-bs-target="#inProgressModal">
               <i class="bi bi-eye"></i> Voir le projet
-            </a>
+            </button>
             ${projet.github ? 
               `<a href="${projet.github}" class="btn btn-outline-secondary btn-sm" target="_blank">
                 <i class="bi bi-github"></i> GitHub
               </a>` : ''
             }
-          </div>
+          </div>      
         </div>
       </div>
     `;
