@@ -5,7 +5,6 @@ async function chargerContact() {
     
     afficherHeader(data);
     afficherLiens(data.liens);
-    afficherFooter(data.liens);
     
   } catch (error) {
     console.error('Erreur lors du chargement des données de contact:', error);
@@ -65,24 +64,6 @@ function afficherLiens(liens) {
   });
 }
 
-function afficherFooter(liens) {
-  const container = document.getElementById('footer-reseaux');
-  
-  // Filtrer pour afficher uniquement certains liens dans le footer
-  const liensFooter = liens.filter(lien => 
-    ['LinkedIn', 'GitHub', 'Gmail'].includes(lien.nom)
-  );
-  
-  liensFooter.forEach(lien => {
-    const link = document.createElement('a');
-    link.href = lien.url;
-    link.className = 'text-white me-3';
-    link.target = lien.url.startsWith('mailto:') ? '_self' : '_blank';
-    link.innerHTML = `<i class="bi bi-${lien.icone} fs-4"></i>`;
-    
-    container.appendChild(link);
-  });
-}
 
 // Charger les données au démarrage
 document.addEventListener('DOMContentLoaded', chargerContact);
