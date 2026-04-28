@@ -1,4 +1,6 @@
 
+
+/* About */
     .hero-section {
       background: linear-gradient(135deg, #596cc2 0%, #101477 100%);
       color: white;
@@ -38,4 +40,125 @@
       display: flex;
       align-items: center;
       justify-content: center;
+    }
+
+    /* curriculum */
+    .timeline-item {
+      border-left: 3px solid #0d6efd;
+      padding-left: 20px;
+      margin-bottom: 30px;
+      position: relative;
+    }
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -8px;
+      top: 0;
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      background: #0d6efd;
+    }
+    .section-title {
+      border-bottom: 3px solid #0d6efd;
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+    }
+
+    /* contact */
+    
+    .contact-header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 100px 0;
+      margin-bottom: 50px;
+    }
+    
+    .contact-btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 25px 30px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 15px;
+      background: white;
+      color: #333;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    
+    .contact-btn:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+      color: white;
+    }
+    
+    .contact-btn-icon {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    
+    .contact-btn-icon i {
+      font-size: 2.5rem;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+      background: rgba(0,0,0,0.05);
+    }
+    
+    .contact-btn:hover .contact-btn-icon i {
+      background: rgba(255,255,255,0.2);
+    }
+    
+    .contact-btn-text h4 {
+      margin: 0;
+      font-weight: 600;
+      font-size: 1.3rem;
+    }
+    
+    .contact-btn-text p {
+      margin: 5px 0 0 0;
+      opacity: 0.7;
+      font-size: 0.95rem;
+    }
+    
+    .contact-btn-arrow {
+      font-size: 1.5rem;
+      opacity: 0.5;
+      transition: all 0.3s;
+    }
+    
+    .contact-btn:hover .contact-btn-arrow {
+      opacity: 1;
+      transform: translateX(5px);
+    }
+    
+    .disponibilite-badge {
+      display: inline-block;
+      padding: 10px 20px;
+      background: rgba(255,255,255,0.2);
+      border-radius: 50px;
+      margin-top: 10px;
+    }
+    
+    @media (max-width: 768px) {
+      .contact-btn {
+        padding: 20px;
+      }
+      
+      .contact-btn-icon i {
+        font-size: 2rem;
+        width: 50px;
+        height: 50px;
+      }
+      
+      .contact-btn-text h4 {
+        font-size: 1.1rem;
+      }
     }
