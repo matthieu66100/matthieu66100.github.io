@@ -6,7 +6,6 @@ async function chargerAbout() {
     afficherPresentation(data.presentation);
     afficherCompetences(data.competences);
     afficherCentresInteret(data.centresInteret);
-    afficherFooter(data.presentation);
     
   } catch (error) {
     console.error('Erreur lors du chargement des données:', error);
@@ -103,12 +102,6 @@ function afficherCentresInteret(interets) {
     
     container.appendChild(col);
   });
-}
-
-function afficherFooter(presentation) {
-  // Nom dans le footer
-  document.getElementById('footer-nom').textContent = presentation.nom;
-
 }
 
 // Charger les données au démarrage
