@@ -13,7 +13,6 @@
       "Présenter mes projets de façon professionnelle"
     ],
 
-
     "technologies": [
       "HTML",
       "CSS",
@@ -25,6 +24,9 @@
     "github": "https://github.com/matthieu66100/matthieu66100.github.io",
     "image": "assets/images/photo/MBlogo.png",
     "images_galerie": [
+      "assets/images/photo/MBlogo.png",
+      "assets/images/photo/portfolio-screen1.png",
+      "assets/images/photo/portfolio-screen2.png"
     ]
   },
 
@@ -37,7 +39,6 @@
     "description": "Logiciel de commande de composants electroniques",
     "details": "...",
     "objectifs":"<liste d'objectifs definissant le projet>",
-
     "technologies": [
       "C++/CLI",
       "QT5",
@@ -57,7 +58,6 @@
     "date": "2020",
     "description": "Robot de gestion agronome autonome",
     "details": "...",
-
     "technologies": [
       "CAO",
       "Electronique",
@@ -78,7 +78,6 @@
     "entreprise": "IMERIR",
     "description": "Jeux de course en Realite augmente interactif",
     "details": "...",
-
     "technologies": [
       "QT5",
       "C++",
@@ -98,7 +97,6 @@
     "entreprise": "IMERIR",
     "description": "Robot de scan 3d de logements",
     "details": "...",
-
     "technologies": [
       "CAO",
       "Electronique",
@@ -120,7 +118,6 @@
     "entreprise": "Capgemini Engineering",
     "description": "IA d'assistance Medicale",
     "details": "...",
-
     "technologies": [
       "Python3"
     ],
@@ -137,7 +134,6 @@
     "entreprise": "INEO",
     "description": "Programme de deploiement automatique d'une passerelle de communication fledge-power ",
     "details": "...",
-
     "technologies": [
       "Docker",
       "C++",
@@ -158,7 +154,6 @@
     "entreprise": "IMERIR",
     "description": "Robots de combat en arene",
     "details": "...",
-
     "technologies": [
       "CAO",
       "Electronique",
@@ -183,7 +178,6 @@
     "entreprise": "Apside",
     "description": "Essaim de robots d'assistance a PMR",
     "details": "...",
-
     "technologies": [
       "CAO",
       "Electronique",
@@ -208,7 +202,6 @@
     "entreprise": "CHU Perpignan",
     "description": "Robot semi-autonome de desinfection pour le secteur medicale",
     "details": "...",
-
     "technologies": [
       "CAO",
       "Electronique",
@@ -232,7 +225,6 @@
     "entreprise": "IMERIR",
     "description": "Conception et realisation d'un robot-tondeuse",
     "details": "...",
-
     "technologies": [
       "CAO",
       "Electronique",
@@ -253,7 +245,6 @@
     "entreprise": "Berger-Levrault",
     "description": "Analyse et POC de la migration d'une application historique vers une technologie plus recente",
     "details": "...",
-
     "technologies": [
       "C",
       "C++",
@@ -273,7 +264,6 @@
     "entreprise": "IMERIR",
     "description": "Developpement d'algorythmes interactifs pour le robot NAO",
     "details": "...",
-
     "technologies": [
       "C++",
       "ROS2",
@@ -296,7 +286,6 @@
     "date": "2026",
     "description": "Conception d'un clavier ergonomique personnel",
     "details": "...",
-
     "technologies": [
       "C++",
       "Soudure",
@@ -314,7 +303,6 @@
     "date": "2025",
     "description": "Developpement d'algorythmes pour les interactions avec le robot Anki Vector",
     "details": "...",
-
     "technologies": [
       "Python",
       "Docker",
@@ -332,7 +320,6 @@
     "date": "2025",
     "description": "Developpement d'une application Mobile autours des jeux de societes",
     "details": "...",
-
     "technologies": [
       "Flutter",
       "PHP API",
@@ -350,7 +337,6 @@
     "date": "2025",
     "description": "Mise en place d'un serveur personnel et administration de ce dernier",
     "details": "...",
-
     "technologies": [
       "Docker",
       "Linux",
