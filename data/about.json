@@ -1,0 +1,43 @@
+{
+  "presentation": {
+    "nom": "Matthieu",
+    "age": 28,
+    "ville": "Toulouse",
+    "pays": "France",
+    "description": "Je suis passionné par l'informatique, les nouvelles technologies, mais surtout la robotique.",
+    "langagesPrincipaux": ["C", "C++", "Python"],
+    "photo": "assets/images/photo/Photo Profil.jpg",
+    "reseaux": {
+      "github": "https://github.com/matthieu66100",
+      "linkedin": "https://www.linkedin.com/in/matthieu-basto-111a85159",
+      "email": "matthieu.basto@gmail.com"
+    }
+  },
+  "competences": {
+    "langages": ["C", "C++", "Python3","Dart",""],
+    "technologies": ["ROS / ROS2", "OpenCV", "TensorFlow", "Git", "Docker", "QT5 / QT6", "Flutter"],
+    "softSkills": ["Travail d'équipe", "Résolution de problèmes", "Communication", "Gestion de projet"],
+    "langues": [
+      {"langue": "Français", "niveau": "langue maternelle"},
+      {"langue": "Anglais", "niveau": "intermédiaire"},
+      {"langue": "Espagnol", "niveau": "langue maternelle"}
+    ]
+  },
+  "centresInteret": [
+    {
+      "titre": "Robotique",
+      "description": "Passion pour la robotique et l'automatisation",
+      "icone": "robot"
+    },
+    {
+      "titre": "Technologies",
+      "description": "Veille technologique constante",
+      "icone": "cpu"
+    },
+    {
+      "titre": "Jeux de Role",
+      "description": "En tant que Maitre du jeu la plus part du temps",
+      "icone": "dice-6"
+    }
+  ]
+}

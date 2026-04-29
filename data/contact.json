@@ -1,0 +1,36 @@
+
+{
+  "titre": "Me contacter",
+  "soustitre": "Choisissez votre plateforme préférée pour échanger",
+  "disponibilite": "Actuellement ouvert aux opportunités",
+  "liens": [
+    {
+      "nom": "LinkedIn",
+      "description": "Réseau professionnel",
+      "url": "https://linkedin.com/in/matthieu-basto-111a85159",
+      "icone": "linkedin",
+      "couleur": "#0077b5"
+    },
+    {
+      "nom": "Gmail",
+      "description": "Email professionnel",
+      "url": "mailto:matthieu.basto@gmail.com",
+      "icone": "envelope-fill",
+      "couleur": "#EA4335"
+    },
+    {
+      "nom": "GitHub",
+      "description": "Projets open source",
+      "url": "https://github.com/matthieu66100",
+      "icone": "github",
+      "couleur": "#181717"
+    },
+    {
+      "nom": "Malt",
+      "description": "Profil freelance",
+      "url": "https://www.malt.fr/profile/bastomatthieu",
+      "icone": "briefcase-fill",
+      "couleur": "#FC5656"
+    }    
+  ]
+}
