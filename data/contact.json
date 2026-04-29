@@ -9,14 +9,14 @@
       "description": "Réseau professionnel",
       "url": "https://linkedin.com/in/matthieu-basto-111a85159",
       "icone": "linkedin",
-      "couleur": "#0077b5"
+      "couleur": "#0a63bd"
     },
     {
       "nom": "Gmail",
       "description": "Email professionnel",
       "url": "mailto:matthieu.basto@gmail.com",
       "icone": "envelope-fill",
-      "couleur": "#EA4335"
+      "couleur": "#dc4a3f"
     },
     {
       "nom": "GitHub",
@@ -30,7 +30,7 @@
       "description": "Profil freelance",
       "url": "https://www.malt.fr/profile/bastomatthieu",
       "icone": "briefcase-fill",
-      "couleur": "#FC5656"
+      "couleur": "#f75955"
     }    
   ]
 }
